@@ -37,7 +37,10 @@ void main() {
     }
   });
 
-  setUp(() => log = <MethodCall>[]);
+  setUp(() {
+    log = <MethodCall>[];
+    GoogleApiHeaders.clear();
+  });
 
   group('testGetGoogleApiHeaders', () {
     googleApiHeadersChannel.setMockMethodCallHandler(
