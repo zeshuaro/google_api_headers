@@ -1,4 +1,5 @@
 import 'package:google_api_headers/src/my_platform.dart';
+import 'package:meta/meta.dart';
 import 'package:package_info/package_info.dart';
 import 'package:flutter/services.dart';
 
@@ -20,6 +21,10 @@ class GoogleApiHeaders {
 
   static Map<String, String> _headers = {};
   final MethodChannel _channel = const MethodChannel('google_api_headers');
+
+  /// Clear cached headers.
+  @visibleForTesting
+  static void clear() => _headers.clear();
 
   /// Get the headers required for calling Google APIs with a restricted key
   /// based on the platform.
