@@ -1,16 +1,27 @@
-# google_api_headers
+# Google API Headers
 
-A new Flutter project.
+A Flutter plugin for getting the headers required for calling Google APIs with a restricted key.
+
+[![pub package](https://img.shields.io/pub/v/google_api_headers.svg)](https://pub.dartlang.org/packages/google_api_headers)
+[![docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://pub.dev/documentation/google_api_headers/latest/)
+[![MIT License](https://img.shields.io/github/license/zeshuaro/google_api_headers.svg)](https://github.com/zeshuaro/google_api_headers/blob/main/LICENSE)
+[![effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Add this to your project's `pubspec.yaml` file:
 
-A few resources to get you started if this is your first Flutter project:
+```yml
+dependencies:
+  google_api_headers: ^0.1.0
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Usage
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Depending on the platform (iOS or Android), the header will contain the required key and value pairs for calling Google APIs with keys that are restricted to an iOS or Android app.
+
+```dart
+import 'package/google_api_headers/google_api_headers.dart';
+
+final headers = await GoogleApiHeaders().getHeaders();
+```
