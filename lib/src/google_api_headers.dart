@@ -8,8 +8,8 @@ class GoogleApiHeaders {
   GoogleApiHeaders([MyPlatform platform])
       : platform = platform ?? MyPlatformImp();
 
+  static Map<String, String> _headers = {};
   final MethodChannel _channel = const MethodChannel('google_api_headers');
-  Map<String, String> _headers = {};
 
   Future<Map<String, dynamic>> getHeaders() async {
     if (_headers.isEmpty) {
