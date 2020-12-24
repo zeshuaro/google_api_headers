@@ -18,7 +18,7 @@ dependencies:
 
 ## Usage
 
-Depending on the platform (iOS or Android), the header will contain the required key and value pairs for calling Google APIs with keys that are restricted to an iOS or Android app.
+Depending on the platform (iOS or Android), the function will return the required key and value pairs for calling Google APIs with keys that are restricted to an iOS or Android app.
 
 ```dart
 import 'package/google_api_headers/google_api_headers.dart';
