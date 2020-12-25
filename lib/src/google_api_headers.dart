@@ -27,7 +27,8 @@ class GoogleApiHeaders {
   static void clear() => _headers.clear();
 
   /// Get the headers required for calling Google APIs with a restricted key
-  /// based on the platform.
+  /// based on the platform (iOS or Android). For web,
+  /// an empty header will be returned.
   Future<Map<String, String>> getHeaders() async {
     if (_headers.isEmpty && !kIsWeb) {
       final packageInfo = await PackageInfo.fromPlatform();
