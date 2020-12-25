@@ -1,5 +1,5 @@
+import 'package:flutter/foundation.dart';
 import 'package:google_api_headers/src/my_platform.dart';
-import 'package:meta/meta.dart';
 import 'package:package_info/package_info.dart';
 import 'package:flutter/services.dart';
 
@@ -29,7 +29,7 @@ class GoogleApiHeaders {
   /// Get the headers required for calling Google APIs with a restricted key
   /// based on the platform.
   Future<Map<String, String>> getHeaders() async {
-    if (_headers.isEmpty) {
+    if (_headers.isEmpty && !kIsWeb) {
       final packageInfo = await PackageInfo.fromPlatform();
       if (platform.isIos()) {
         _headers = {

@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  meta: ">=1.0.0 <2.0.0"
   package_info: ">=0.4.0 <2.0.0"
 
 dev_dependencies:
@@ -27,3 +26,5 @@ flutter:
         pluginClass: GoogleApiHeadersPlugin
       ios:
         pluginClass: GoogleApiHeadersPlugin
+      web:
+        default_package: google_api_headers
