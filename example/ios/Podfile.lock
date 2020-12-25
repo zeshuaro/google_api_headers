@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - google_api_headers (0.0.1):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - google_api_headers (from `.symlinks/plugins/google_api_headers/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  google_api_headers:
+    :path: ".symlinks/plugins/google_api_headers/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  google_api_headers: d0b6a27d716da9ef52ab7064ebfe7783b341d902
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.0
