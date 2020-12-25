@@ -1,0 +1,32 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Flutter 💻
+        uses: subosito/flutter-action@v1
+        with:
+          channel: stable
+
+      - name: Run tests 🧪
+        run: |
+          flutter pub get
+          flutter test --coverage
+
+      - name: Upload coverage report 📡
+        uses: codecov/codecov-action@v1
+        with:
+          fail_ci_if_error: true
