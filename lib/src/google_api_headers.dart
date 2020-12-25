@@ -7,7 +7,7 @@ import 'package:flutter/services.dart';
 /// calling Google APIs with a restricted key.
 ///
 /// ```dart
-/// import 'package/google_api_headers/google_api_headers.dart';
+/// import 'package:google_api_headers/google_api_headers.dart';
 ///
 /// final headers = await GoogleApiHeaders().getHeaders();
 /// ```

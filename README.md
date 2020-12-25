@@ -23,7 +23,7 @@ dependencies:
 Depending on the platform (iOS or Android), the function will return the required key and value pairs for calling Google APIs with keys that are restricted to an iOS or Android app.
 
 ```dart
-import 'package/google_api_headers/google_api_headers.dart';
+import 'package:google_api_headers/google_api_headers.dart';
 
 final headers = await GoogleApiHeaders().getHeaders();
 ```
