@@ -25,6 +25,6 @@ flutter:
         package: io.github.zeshuaro.google_api_headers
         pluginClass: GoogleApiHeadersPlugin
       ios:
-        pluginClass: GoogleApiHeadersPlugin
+        default_package: google_api_headers
       web:
         default_package: google_api_headers
