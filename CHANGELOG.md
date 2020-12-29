@@ -1,3 +1,6 @@
+## 0.1.1+2
+  * Updated readme
+
 ## 0.1.1+1
 
   * Updated `flutter` version constraint to `>=1.20.0 <2.0.0`
