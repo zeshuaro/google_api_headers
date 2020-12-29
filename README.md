@@ -1,6 +1,6 @@
 # Google API Headers
 
-A Flutter plugin for getting the headers required for calling Google APIs with a restricted key.
+A Flutter plugin for getting the headers required for calling Google APIs with an app restricted key.
 
 [![pub package](https://img.shields.io/pub/v/google_api_headers.svg)](https://pub.dartlang.org/packages/google_api_headers)
 [![docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://pub.dev/documentation/google_api_headers/latest/)

@@ -1,5 +1,5 @@
 name: google_api_headers
-description: A Flutter plugin for getting the headers required for calling Google APIs with a restricted key.
+description: A Flutter plugin for getting the headers required for calling Google APIs with an app restricted key.
 version: 0.1.1+1
 homepage: https://github.com/zeshuaro/google_api_headers
 
