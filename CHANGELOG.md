@@ -1,10 +1,10 @@
 ## 0.1.1+1
 
-  * Tidy up pubspec and plugin for iOS (no changes are made to the plugin)
+  * Updated `flutter` version constraint to `>=1.20.0 <2.0.0`
 
 ## 0.1.1
 
-  * Add web support
+  * Added to support web
 
 ## 0.1.0 
 
