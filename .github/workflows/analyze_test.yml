@@ -46,7 +46,7 @@ jobs:
       - name: Setup Flutter 💻
         uses: subosito/flutter-action@v1
         with:
-          channel: stable
+          channel: beta
 
       - name: Run tests 🧪
         run: |
