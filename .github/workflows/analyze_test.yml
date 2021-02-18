@@ -2,9 +2,13 @@ name: GitHub Actions
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - null-safety
   pull_request:
-    branches: [main]
+    branches:
+      - main
+      - null-safety
 
 jobs:
   analyze:
