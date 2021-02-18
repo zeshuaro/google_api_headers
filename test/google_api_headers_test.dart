@@ -1,10 +1,12 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_api_headers/google_api_headers.dart';
+import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
-class MockPlatform extends Mock implements MyPlatform {}
+import 'google_api_headers_test.mocks.dart';
 
+@GenerateMocks([MyPlatform])
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,8 +20,8 @@ void main() {
     'google_api_headers',
   );
 
-  final platform = MockPlatform();
-  List<MethodCall> log;
+  final platform = MockMyPlatform();
+  late List<MethodCall> log;
 
   packageInfoChannel.setMockMethodCallHandler((MethodCall methodCall) async {
     log.add(methodCall);

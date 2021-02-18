@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:google_api_headers/src/my_platform.dart';
 import 'package:package_info/package_info.dart';
-import 'package:flutter/services.dart';
 
 /// GoogleApiHeaders provide a method for getting the headers required for
 /// calling Google APIs with a restricted key.
@@ -16,7 +16,7 @@ class GoogleApiHeaders {
 
   /// Constructor with an optional parameter of [MyPlatform].
   /// Default to [MyPlatformImp] if the parameter is not provided.
-  const GoogleApiHeaders([MyPlatform platform])
+  const GoogleApiHeaders([MyPlatform? platform])
       : platform = platform ?? const MyPlatformImp();
 
   static Map<String, String> _headers = {};

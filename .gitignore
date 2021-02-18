@@ -25,6 +25,9 @@ doc/api/
 *.js.deps
 *.js.map
 
+# Mocks generated files
+*.mocks.dart
+
 ### Flutter ###
 # Flutter/Dart/Pub related
 **/doc/api/
