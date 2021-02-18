@@ -51,6 +51,7 @@ jobs:
       - name: Run tests 🧪
         run: |
           flutter pub get
+          flutter packages pub run build_runner build --delete-conflicting-outputs
           flutter test --coverage
 
       - name: Upload coverage report 📡
