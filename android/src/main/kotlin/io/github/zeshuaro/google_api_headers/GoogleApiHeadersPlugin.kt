@@ -32,11 +32,11 @@ class GoogleApiHeadersPlugin() : MethodCallHandler, FlutterPlugin {
         }
     }
 
-    override fun onAttachedToEngine(binding: FlutterPluginBinding) {
+    override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
         setupChannel(binding.binaryMessenger, binding.applicationContext)
     }
 
-    override fun onDetachedFromEngine(binding: FlutterPluginBinding) {
+    override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
         channel?.setMethodCallHandler(null)
         channel = null
         context = null
