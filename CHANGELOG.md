@@ -1,3 +1,6 @@
+## 0.2.0-nullsafety.1
+  * feat: Updated Android plugin to use v2 Android embedding
+
 ## 0.2.0-nullsafety.0
   * **BREAKING**: Opted into null safety
   * **BREAKING**: Updated Dart SDK constraints to `>=2.12.0-0 <3.0.0`
