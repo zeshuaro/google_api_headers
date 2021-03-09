@@ -4,11 +4,7 @@ on:
   push:
     branches:
       - main
-      - null-safety
   pull_request:
-    branches:
-      - main
-      - null-safety
 
 jobs:
   analyze:
@@ -52,9 +48,11 @@ jobs:
         with:
           channel: stable
 
-      - name: Run tests 🧪
+      - name: Run analyzer and tests 🧪
         run: |
           flutter pub get
+          flutter packages pub run build_runner build --delete-conflicting-outputs
+          flutter analyze
           flutter test --coverage
 
       - name: Upload coverage report 📡

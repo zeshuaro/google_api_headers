@@ -15,7 +15,7 @@ Add this to your project's `pubspec.yaml` file:
 
 ```yml
 dependencies:
-  google_api_headers: ^0.1.1+2
+  google_api_headers: ^0.2.0-nullsafety.1
 ```
 
 ## Usage

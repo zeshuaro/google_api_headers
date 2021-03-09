@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
+
+import 'package:flutter/material.dart';
 import 'package:google_api_headers/google_api_headers.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Map<String, dynamic> _headers;
+  Map<String, String>? _headers;
 
   @override
   void initState() {
