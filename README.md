@@ -7,7 +7,7 @@ A Flutter plugin for getting the headers required for calling Google APIs with a
 [![MIT License](https://img.shields.io/github/license/zeshuaro/google_api_headers.svg)](https://github.com/zeshuaro/google_api_headers/blob/main/LICENSE)
 [![Build and Deploy](https://github.com/zeshuaro/google_api_headers/workflows/GitHub%20Actions/badge.svg)](https://github.com/zeshuaro/google_api_headers/actions?query=workflow%3A%22GitHub+Actions%22)
 [![codecov](https://codecov.io/gh/zeshuaro/google_api_headers/branch/main/graph/badge.svg?token=4IVF5MBLTS)](https://codecov.io/gh/zeshuaro/google_api_headers)
-[![Effective Dart](https://img.shields.io/badge/style-Effective%20Dart-40c4ff.svg)](https://github.com/google/pedantic)
+[![pedantic](https://img.shields.io/badge/style-pedantic-40c4ff.svg)](https://github.com/google/pedantic)
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ Add this to your project's `pubspec.yaml` file:
 
 ```yml
 dependencies:
-  google_api_headers: ^0.2.0-nullsafety.1
+  google_api_headers: ^1.0.0
 ```
 
 ## Usage
