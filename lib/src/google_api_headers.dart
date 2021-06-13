@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:google_api_headers/src/my_platform.dart';
-import 'package:package_info/package_info.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 /// GoogleApiHeaders provide a method for getting the headers required for
 /// calling Google APIs with a restricted key.
@@ -30,13 +30,13 @@ class GoogleApiHeaders {
   /// based on the platform (iOS or Android). For web,
   /// an empty header will be returned.
   Future<Map<String, String>> getHeaders() async {
-    if (_headers.isEmpty && !kIsWeb) {
+    if (_headers.isEmpty && !kIsWeb && !platform.isDesktop) {
       final packageInfo = await PackageInfo.fromPlatform();
-      if (platform.isIos()) {
+      if (platform.isIos) {
         _headers = {
           "X-Ios-Bundle-Identifier": packageInfo.packageName,
         };
-      } else if (platform.isAndroid()) {
+      } else if (platform.isAndroid) {
         try {
           final sha1 = await _channel.invokeMethod(
             'getSigningCertSha1',
