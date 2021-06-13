@@ -1,33 +1,30 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_api_headers/google_api_headers.dart';
-import 'package:mockito/annotations.dart';
-import 'package:mockito/mockito.dart';
+import 'package:mocktail/mocktail.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
-import 'google_api_headers_test.mocks.dart';
+class MockMyPlatform extends Mock implements MyPlatform {}
 
-@GenerateMocks([MyPlatform])
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  const String packageName = 'io.github.zeshuaro.googleApiHeadersExample';
-  const String sha1 = 'sha1';
+  const packageName = 'io.github.zeshuaro.googleApiHeadersExample';
+  const sha1 = 'sha1';
 
-  const MethodChannel packageInfoChannel = MethodChannel(
-    'plugins.flutter.io/package_info',
+  const packageInfoChannel = MethodChannel(
+    'dev.fluttercommunity.plus/package_info',
   );
-  const MethodChannel googleApiHeadersChannel = MethodChannel(
-    'google_api_headers',
-  );
+  const googleApiHeadersChannel = MethodChannel('google_api_headers');
 
   final platform = MockMyPlatform();
   late List<MethodCall> log;
 
-  packageInfoChannel.setMockMethodCallHandler((MethodCall methodCall) async {
+  packageInfoChannel.setMockMethodCallHandler((methodCall) async {
     log.add(methodCall);
     switch (methodCall.method) {
       case 'getAll':
-        return <String, dynamic>{
+        return {
           'appName': 'google_api_headers_example',
           'buildNumber': '1',
           'packageName': packageName,
@@ -41,7 +38,12 @@ void main() {
 
   setUp(() {
     log = <MethodCall>[];
+    PackageInfo.disablePackageInfoPlatformOverride = true;
     GoogleApiHeaders.clear();
+
+    when(() => platform.isIos).thenReturn(false);
+    when(() => platform.isAndroid).thenReturn(false);
+    when(() => platform.isDesktop).thenReturn(false);
   });
 
   group('testGetGoogleApiHeaders', () {
@@ -59,15 +61,13 @@ void main() {
     );
 
     test('testGetHeadersOniOS', () async {
-      when(platform.isIos()).thenReturn(true);
-      when(platform.isAndroid()).thenReturn(false);
+      when(() => platform.isIos).thenReturn(true);
       final headers = await GoogleApiHeaders(platform).getHeaders();
       expect(headers, {'X-Ios-Bundle-Identifier': packageName});
     });
 
     test('testGetHeadersOnAndroid', () async {
-      when(platform.isIos()).thenReturn(false);
-      when(platform.isAndroid()).thenReturn(true);
+      when(() => platform.isAndroid).thenReturn(true);
       final headers = await GoogleApiHeaders(platform).getHeaders();
       expect(headers, {
         'X-Android-Package': packageName,
@@ -75,9 +75,13 @@ void main() {
       });
     });
 
-    test('testGetHeadersOnOthers', () async {
-      when(platform.isIos()).thenReturn(false);
-      when(platform.isAndroid()).thenReturn(false);
+    test('testGetHeadersOnDesktop', () async {
+      when(() => platform.isDesktop).thenReturn(true);
+      final headers = await GoogleApiHeaders(platform).getHeaders();
+      expect(headers, {});
+    });
+
+    test('testGetHeadersOnOtherPlatforms', () async {
       final headers = await GoogleApiHeaders(platform).getHeaders();
       expect(headers, {});
     });
@@ -103,8 +107,7 @@ void main() {
         },
       );
 
-      when(platform.isIos()).thenReturn(false);
-      when(platform.isAndroid()).thenReturn(true);
+      when(() => platform.isAndroid).thenReturn(true);
       final headers = await GoogleApiHeaders(platform).getHeaders();
       expect(headers, {});
     });

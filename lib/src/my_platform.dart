@@ -2,11 +2,14 @@ import 'dart:io';
 
 /// Abstract class for platform implementations.
 abstract class MyPlatform {
-  /// Returns whether the platform is Android or not.
-  bool isAndroid();
+  /// Returns if the platform is Android.
+  bool get isAndroid;
 
-  /// Returns whether the platform is iOS or not.
-  bool isIos();
+  /// Returns if the platform is iOS.
+  bool get isIos;
+
+  /// Returns if the platform is desktop.
+  bool get isDesktop;
 }
 
 /// MyPlatformImp implements the methods of whether the platform is
@@ -16,8 +19,13 @@ class MyPlatformImp implements MyPlatform {
   const MyPlatformImp();
 
   @override
-  bool isAndroid() => Platform.isAndroid;
+  bool get isAndroid => Platform.isAndroid;
 
   @override
-  bool isIos() => Platform.isIOS;
+  bool get isIos => Platform.isIOS;
+
+  @override
+  bool get isDesktop {
+    return Platform.isMacOS || Platform.isWindows || Platform.isLinux;
+  }
 }

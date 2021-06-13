@@ -33,7 +33,7 @@ doc/api/
 **/doc/api/
 .flutter-plugins
 .flutter-plugins-dependencies
-.fvm/
+.fvm/flutter_sdk
 .pub-cache/
 .pub/
 coverage/
