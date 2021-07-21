@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "matchPaths": [".github/workflows/*.yml"],
-      "labels": ["github-actions"]
+      "labels": ["ci"]
     }
   ]
 }
