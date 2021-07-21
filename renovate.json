@@ -2,6 +2,7 @@
   "extends": ["config:base"],
   "ignorePaths": ["android/", "example/ios/", "example/android/"],
   "labels": ["dependencies"],
+  "semanticCommits": "enabled",
   "stabilityDays": 3,
   "prCreation": "not-pending",
   "schedule": ["after 6pm every weekday", "every weekend"],
