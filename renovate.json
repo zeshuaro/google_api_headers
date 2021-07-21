@@ -9,6 +9,8 @@
   "timezone": "Australia/Sydney",
   "packageRules": [
     {
+      "groupName": "GitHub Actions",
+      "semanticCommitType": "ci",
       "matchPaths": [".github/workflows/*.yml"],
       "labels": ["ci"]
     }
