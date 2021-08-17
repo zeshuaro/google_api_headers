@@ -1,3 +1,7 @@
+## 1.1.1
+
+* **chore**: Updated Android dependencies
+
 ## 1.1.0
 
 * **feat**: Added desktop support
