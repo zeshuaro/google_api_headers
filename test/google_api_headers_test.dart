@@ -2,7 +2,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_api_headers/google_api_headers.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:package_info_plus/package_info_plus.dart';
 
 class MockMyPlatform extends Mock implements MyPlatform {}
 
@@ -38,7 +37,6 @@ void main() {
 
   setUp(() {
     log = <MethodCall>[];
-    PackageInfo.disablePackageInfoPlatformOverride = true;
     GoogleApiHeaders.clear();
 
     when(() => platform.isIos).thenReturn(false);
