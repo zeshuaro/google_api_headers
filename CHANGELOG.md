@@ -1,3 +1,8 @@
+## 1.2.0
+
+* **chore**: Upgraded Android SHA request to new apis
+* **chore**: Updated Android dependencies
+
 ## 1.1.1
 
 * **chore**: Updated Android dependencies
