@@ -1,6 +1,6 @@
 ## 1.2.0
 
-* **chore**: Upgraded Android SHA request to new apis
+* **chore**: Updated to use new APIs for requesting Android SHA
 * **chore**: Updated Android dependencies
 
 ## 1.1.1
