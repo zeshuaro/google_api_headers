@@ -1,3 +1,9 @@
+## 1.2.0
+
+* **chore**: Updated to use new APIs for requesting Android SHA
+* **chore**: Updated Android dependencies
+* **chore**: Updated dependency `package_info_plus: ^1.4.0`
+
 ## 1.1.1
 
 * **chore**: Updated Android dependencies
