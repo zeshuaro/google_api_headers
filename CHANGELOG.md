@@ -1,6 +1,6 @@
 ## 1.3.0-dev.0
 
-* **fix**: Fixed type mistmatch error for Android
+* **fix**: Fixed type mismatch error for Android
 
 ## 1.2.0+1
 
