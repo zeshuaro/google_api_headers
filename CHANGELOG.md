@@ -1,3 +1,7 @@
+## 1.3.0-dev.0
+
+* **fix**: Fixed type mistmatch error for Android
+
 ## 1.2.0
 
 * **chore**: Updated to use new APIs for requesting Android SHA
