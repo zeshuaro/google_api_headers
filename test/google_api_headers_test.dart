@@ -2,6 +2,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_api_headers/google_api_headers.dart';
 import 'package:mocktail/mocktail.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 class MockMyPlatform extends Mock implements MyPlatform {}
 
@@ -10,30 +11,18 @@ void main() {
 
   const packageName = 'io.github.zeshuaro.googleApiHeadersExample';
   const sha1 = 'sha1';
-
-  const packageInfoChannel = MethodChannel(
-    'dev.fluttercommunity.plus/package_info',
-  );
   const googleApiHeadersChannel = MethodChannel('google_api_headers');
 
   final platform = MockMyPlatform();
   late List<MethodCall> log;
 
-  packageInfoChannel.setMockMethodCallHandler((methodCall) async {
-    log.add(methodCall);
-    switch (methodCall.method) {
-      case 'getAll':
-        return {
-          'appName': 'google_api_headers_example',
-          'buildNumber': '1',
-          'packageName': packageName,
-          'version': '1.0',
-        };
-      default:
-        assert(false);
-        return null;
-    }
-  });
+  PackageInfo.setMockInitialValues(
+    appName: 'google_api_headers_example',
+    packageName: packageName,
+    version: '1.0',
+    buildNumber: '1',
+    buildSignature: 'signature',
+  );
 
   setUp(() {
     log = <MethodCall>[];
