@@ -1,3 +1,7 @@
+## 1.2.0+1
+
+* **docs**: Updated changelog for `1.2.0`
+
 ## 1.2.0
 
 * **chore**: Updated to use new APIs for requesting Android SHA
