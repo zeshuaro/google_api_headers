@@ -49,13 +49,13 @@ class GoogleApiHeadersPlugin : MethodCallHandler, FlutterPlugin {
             try {
                 val info: PackageInfo
                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P) {
-                    info = context!!.packageManager.getPackageInfo(call.arguments<String>(), PackageManager.GET_SIGNING_CERTIFICATES)
+                    info = context!!.packageManager.getPackageInfo(call.arguments<String>()!!, PackageManager.GET_SIGNING_CERTIFICATES)
                     for (signature in info.signingInfo.apkContentsSigners) {
                         parseSignature(signature, result)
                     }
                 } else {
                     @Suppress("DEPRECATION")
-                    info = context!!.packageManager.getPackageInfo(call.arguments<String>(), PackageManager.GET_SIGNATURES)
+                    info = context!!.packageManager.getPackageInfo(call.arguments<String>()!!, PackageManager.GET_SIGNATURES)
                     @Suppress("DEPRECATION")
                     for (signature in info.signatures) {
                         parseSignature(signature, result)
