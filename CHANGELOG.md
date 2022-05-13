@@ -1,3 +1,7 @@
+## 1.3.0
+
+* Graduated package to a stable release. See pre-releases prior to this version for changelog entries
+
 ## 1.3.0-dev.0
 
 * **fix**: Fixed type mismatch error for Android
