@@ -1,3 +1,9 @@
+## 1.4.0
+
+**chore**: Updated dependency `package_info_plus: ^2.0.0`
+
+* Graduated package to a stable release. See pre-releases prior to this version for changelog entries
+
 ## 1.3.0
 
 * Graduated package to a stable release. See pre-releases prior to this version for changelog entries
