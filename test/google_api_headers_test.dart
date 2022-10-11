@@ -22,6 +22,7 @@ void main() {
     version: '1.0',
     buildNumber: '1',
     buildSignature: 'signature',
+    installerStore: null,
   );
 
   setUp(() {
