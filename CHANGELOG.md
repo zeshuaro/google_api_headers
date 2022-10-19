@@ -1,3 +1,7 @@
+## 1.5.0
+
+* **chore**: Updated dependency `package_info_plus: ^3.0.0`
+
 ## 1.4.0+1
 
 * **docs**: Fixed changelog for `1.4.0`
