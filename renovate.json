@@ -1,16 +1,9 @@
 {
-  "extends": ["config:base"],
-  "ignorePaths": ["android/", "example/ios/", "example/android/"],
-  "labels": ["dependencies"],
-  "semanticCommits": "enabled",
-  "schedule": ["after 6pm every weekday", "every weekend"],
-  "timezone": "Australia/Sydney",
-  "packageRules": [
-    {
-      "groupName": "GitHub Actions",
-      "semanticCommitType": "ci",
-      "matchPaths": [".github/workflows/*.yml"],
-      "addLabels": ["ci"]
-    }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>zeshuaro/renovate-configs",
+    "github>zeshuaro/renovate-configs:package",
+    "github>zeshuaro/renovate-configs:dart",
+    "github>zeshuaro/renovate-configs:flutterIgnorePaths"
   ]
 }
