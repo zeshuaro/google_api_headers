@@ -1,3 +1,7 @@
+## 1.5.0+1
+
+* **docs(license)**: update copyright year to 2023
+
 ## 1.5.0
 
 * **chore**: Updated dependency `package_info_plus: ^3.0.0`
