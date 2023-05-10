@@ -1,3 +1,7 @@
+## 1.6.0
+
+* **fix(deps)**: update dependency `package_info_plus: ^4.0.0`
+
 ## 1.5.0+1
 
 * **docs(license)**: update copyright year to 2023
