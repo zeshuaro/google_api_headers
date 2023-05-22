@@ -1,7 +1,3 @@
-## 1.7.0
-
-* **chore**: Adds a `namespace` attribute to the Android build.gradle, for compatibility with Android Gradle Plugin 8.0.
-
 ## 1.6.0
 
 * **fix(deps)**: update dependency `package_info_plus: ^4.0.0`
