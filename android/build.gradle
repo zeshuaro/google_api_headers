@@ -29,13 +29,13 @@ android {
     if (project.android.hasProperty("namespace")) {
       namespace 'io.github.zeshuaro.google_api_headers'
     }
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
     }
 }
 
