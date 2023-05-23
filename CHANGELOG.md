@@ -1,3 +1,9 @@
+## 2.0.0
+
+* **chore**: update `compileSdkVersion` to 33 and `minSdkVersion` to 19
+* **chore**: add compatibility with Android Gradle Plugin 8.0
+* **chore**: update Dart SDK constraint to `>=2.12.0 <4.0.0`
+
 ## 1.6.0
 
 * **fix(deps)**: update dependency `package_info_plus: ^4.0.0`
