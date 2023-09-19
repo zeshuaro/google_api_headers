@@ -1,0 +1,17 @@
+{
+  "name": "google_api_headers",
+  "version": "2.0.0",
+  "description": "A Flutter plugin for getting the headers required for calling Google APIs with an app restricted key",
+  "main": "index.js",
+  "repository": "https://github.com/zeshuaro/google_api_headers.git",
+  "author": "Joshua Tang <zeshuaro@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
+    "semantic-release": "^22.0.0",
+    "semantic-release-pub": "^0.1.0",
+    "semantic-release-replace-plugin": "^1.2.7"
+  }
+}
