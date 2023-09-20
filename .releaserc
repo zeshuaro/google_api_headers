@@ -41,7 +41,17 @@
         "npmPublish": false
       }
     ],
-    "@semantic-release/git",
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "CHANGELOG.md",
+          "package.json",
+          "pubspec.yaml",
+          "README.md"
+        ]
+      }
+    ],
     [
       "@semantic-release/github",
       {
