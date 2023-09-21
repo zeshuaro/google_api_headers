@@ -6,6 +6,9 @@
   "repository": "https://github.com/zeshuaro/google_api_headers.git",
   "author": "Joshua Tang <zeshuaro@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.17"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
