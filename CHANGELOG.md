@@ -1,3 +1,30 @@
+## [2.0.2](https://github.com/zeshuaro/google_api_headers/compare/v2.0.1...v2.0.2) (2023-09-22)
+
+
+### Bug Fixes
+
+* **docs:** plugin description ([#151](https://github.com/zeshuaro/google_api_headers/issues/151)) ([d2f26d9](https://github.com/zeshuaro/google_api_headers/commit/d2f26d9272e8c58c211884ca645ca2f6c47514e7))
+
+
+### Documentation
+
+* update package version to 2.0.1 on readme ([#142](https://github.com/zeshuaro/google_api_headers/issues/142)) ([d26da20](https://github.com/zeshuaro/google_api_headers/commit/d26da20107dca194ec82319bb4efd8bf734e17dc))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v22 ([#137](https://github.com/zeshuaro/google_api_headers/issues/137)) ([92841c6](https://github.com/zeshuaro/google_api_headers/commit/92841c69758a4c21d2f89e9fe79eddb26ee9192d))
+* **deps:** update dependency semantic-release to v22.0.1 ([#144](https://github.com/zeshuaro/google_api_headers/issues/144)) ([1fb67aa](https://github.com/zeshuaro/google_api_headers/commit/1fb67aac87dcaa150f71379f1f01dd992d337cb2))
+* manually bump version to 2.0.1 ([#141](https://github.com/zeshuaro/google_api_headers/issues/141)) ([cd9270d](https://github.com/zeshuaro/google_api_headers/commit/cd9270d9fa6eb9ac70d1ca16f69b18e2f66b6963))
+
+
+### Continuous Integration
+
+* **renovate:** add javascript preset ([#146](https://github.com/zeshuaro/google_api_headers/issues/146)) ([c98f73b](https://github.com/zeshuaro/google_api_headers/commit/c98f73bef11c8669f9ad36c6afeed7c349387fa8))
+* **semantic-release:** fix git commit assets ([#143](https://github.com/zeshuaro/google_api_headers/issues/143)) ([699e96c](https://github.com/zeshuaro/google_api_headers/commit/699e96c9fbe42b4ca0fdd6b4be1d64db29f97d60))
+* **workflows:** combine semantic release into main workflow ([#148](https://github.com/zeshuaro/google_api_headers/issues/148)) ([bdbdbe1](https://github.com/zeshuaro/google_api_headers/commit/bdbdbe19b060cb0a06ff52b4f13d51b47769cc48))
+* **workflows:** migrate to shared pull reuqest and scheduled workflows ([#147](https://github.com/zeshuaro/google_api_headers/issues/147)) ([1f5de51](https://github.com/zeshuaro/google_api_headers/commit/1f5de51fd15bcf4e1d40cc88673fb6c00fb7e482))
+
 ## [2.0.1](https://github.com/zeshuaro/google_api_headers/compare/v2.0.0...v2.0.1) (2023-09-20)
 
 
