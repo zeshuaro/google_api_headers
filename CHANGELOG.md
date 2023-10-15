@@ -1,3 +1,37 @@
+## [2.0.3](https://github.com/zeshuaro/google_api_headers/compare/v2.0.2...v2.0.3) (2023-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to v5 ([#164](https://github.com/zeshuaro/google_api_headers/issues/164)) ([2f6c118](https://github.com/zeshuaro/google_api_headers/commit/2f6c1181450950b8e85c26b9534fe08ea2822a5b))
+
+
+### Reverts
+
+* Revert "fix(deps): update dependency package_info_plus to v5 (#164)" (#170) ([a5044e7](https://github.com/zeshuaro/google_api_headers/commit/a5044e7ac615a45fbb805c67a0d5bc9bc61efa4b)), closes [#164](https://github.com/zeshuaro/google_api_headers/issues/164) [#170](https://github.com/zeshuaro/google_api_headers/issues/170)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#157](https://github.com/zeshuaro/google_api_headers/issues/157)) ([5be05b2](https://github.com/zeshuaro/google_api_headers/commit/5be05b24a980e4a8b281eef2c338ebf587673544))
+* **deps:** update dependency mocktail to v1.0.1 ([#163](https://github.com/zeshuaro/google_api_headers/issues/163)) ([6e96d18](https://github.com/zeshuaro/google_api_headers/commit/6e96d18b536e1a73bc3b75649557a3e9901d6340))
+* **deps:** update dependency semantic-release to v22.0.4 ([#159](https://github.com/zeshuaro/google_api_headers/issues/159)) ([a31587a](https://github.com/zeshuaro/google_api_headers/commit/a31587a51975b2bddf9912ad6500b23a276f44a9))
+* **deps:** update dependency semantic-release to v22.0.5 ([#161](https://github.com/zeshuaro/google_api_headers/issues/161)) ([d6a97f9](https://github.com/zeshuaro/google_api_headers/commit/d6a97f92acfef05008506b6de37ed3a8412b9279))
+* **deps:** update dependency semantic-release-pub to v0.3.0 ([#160](https://github.com/zeshuaro/google_api_headers/issues/160)) ([50e80ee](https://github.com/zeshuaro/google_api_headers/commit/50e80eee704491763c942dfbba87c77ebd0d4da0))
+* **deps:** update dependency semantic-release-pub to v0.3.1 ([#162](https://github.com/zeshuaro/google_api_headers/issues/162)) ([54119e3](https://github.com/zeshuaro/google_api_headers/commit/54119e3763ba67f1d0d5be9ab40579c0357cae5e))
+* **deps:** update dependency semantic-release-pub to v0.3.2 ([#166](https://github.com/zeshuaro/google_api_headers/issues/166)) ([97ec6b7](https://github.com/zeshuaro/google_api_headers/commit/97ec6b7f0320f88f538f9122e8955b49a61c29c2))
+* **deps:** update zeshuaro/github-actions-workflows digest to 06fac08 ([#158](https://github.com/zeshuaro/google_api_headers/issues/158)) ([1dd9729](https://github.com/zeshuaro/google_api_headers/commit/1dd9729d1fdd36aa3a1a89ececd39384090e0d54))
+* **node:** update dependency node to v18.18.0 ([#156](https://github.com/zeshuaro/google_api_headers/issues/156)) ([b027a48](https://github.com/zeshuaro/google_api_headers/commit/b027a48fc7f8ce929919e56e12e6f96d5220b5e0))
+
+
+### Continuous Integration
+
+* **deps:** update subosito/flutter-action action to v2.11.0 ([#167](https://github.com/zeshuaro/google_api_headers/issues/167)) ([83377de](https://github.com/zeshuaro/google_api_headers/commit/83377ded3ae4b4cfcbfc52cacd31a3c41719c2bf))
+* **deps:** update zeshuaro/github-actions-workflows digest to 68a82af ([#165](https://github.com/zeshuaro/google_api_headers/issues/165)) ([39db6d7](https://github.com/zeshuaro/google_api_headers/commit/39db6d7db1330ac194fffc033cb22864ddb18cd7))
+* **deps:** update zeshuaro/github-actions-workflows digest to a7f44cd ([#168](https://github.com/zeshuaro/google_api_headers/issues/168)) ([59d977d](https://github.com/zeshuaro/google_api_headers/commit/59d977d65ea5aa333fbed0e34eb1920e964bd25e))
+* **renovate:** add `nodeChore` preset ([#153](https://github.com/zeshuaro/google_api_headers/issues/153)) ([bf15b89](https://github.com/zeshuaro/google_api_headers/commit/bf15b897361263fbd733aa4982eb37de4b10fd46))
+* **renovate:** add `nodeVersion` preset ([#152](https://github.com/zeshuaro/google_api_headers/issues/152)) ([71446a3](https://github.com/zeshuaro/google_api_headers/commit/71446a311c003bc8f02ab005fb1ef1549e9ac7da))
+
 ## [2.0.2](https://github.com/zeshuaro/google_api_headers/compare/v2.0.1...v2.0.2) (2023-09-22)
 
 
