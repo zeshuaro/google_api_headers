@@ -25,6 +25,16 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
+kotlin {
+    jvmToolchain(8)
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(8))
+    }
+}
+
 android {
     namespace 'io.github.zeshuaro.google_api_headers_example'
     compileSdkVersion 34
