@@ -25,19 +25,9 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
-kotlin {
-    jvmToolchain(8)
-}
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8))
-    }
-}
-
 android {
     namespace 'io.github.zeshuaro.google_api_headers_example'
-    compileSdkVersion 34
+    compileSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -45,8 +35,8 @@ android {
 
     defaultConfig {
         applicationId "io.github.zeshuaro.google_api_headers_example"
-        minSdkVersion 19
-        targetSdkVersion 34
+        minSdkVersion 23
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
