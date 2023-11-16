@@ -1,3 +1,54 @@
+## [3.0.0](https://github.com/zeshuaro/google_api_headers/compare/v2.0.3...v3.0.0) (2023-11-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* update android `minSdkVersion` to 23, kotlin to 1.8.22, gradle build tools to 7.4.2, and gradle to 7.5 (#184)
+
+### Features
+
+* **dart:** update dependency dart to v2.19.6 ([#191](https://github.com/zeshuaro/google_api_headers/issues/191)) ([e4af1f5](https://github.com/zeshuaro/google_api_headers/commit/e4af1f54801a50e87c97e7906070c2d5b3b17dac))
+* **flutter:** update dependency flutter to v2 ([#197](https://github.com/zeshuaro/google_api_headers/issues/197)) ([b1b7db3](https://github.com/zeshuaro/google_api_headers/commit/b1b7db394a06f9057837ff8f057894536d530d3c))
+
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to ^4.2.0 ([#192](https://github.com/zeshuaro/google_api_headers/issues/192)) ([dea4b17](https://github.com/zeshuaro/google_api_headers/commit/dea4b1703454af3c922bb9f773ddcc2ccd08d523))
+
+
+### Reverts
+
+* Revert "chore(deps): update dependency flutter to >=1.22.6 (#194)" (#196) ([6ee9ecc](https://github.com/zeshuaro/google_api_headers/commit/6ee9eccbc096bf00430a014953e337b65c91519c)), closes [#194](https://github.com/zeshuaro/google_api_headers/issues/194) [#196](https://github.com/zeshuaro/google_api_headers/issues/196)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#171](https://github.com/zeshuaro/google_api_headers/issues/171)) ([c99836d](https://github.com/zeshuaro/google_api_headers/commit/c99836d75288a09a39de2d351c7598f6da8373bb))
+* **deps:** lock file maintenance ([#173](https://github.com/zeshuaro/google_api_headers/issues/173)) ([1669ea9](https://github.com/zeshuaro/google_api_headers/commit/1669ea97cdadd3cee0daffb56b734f46885a5f65))
+* **deps:** lock file maintenance ([#177](https://github.com/zeshuaro/google_api_headers/issues/177)) ([c9117f7](https://github.com/zeshuaro/google_api_headers/commit/c9117f71668da7e9325e94025658898bcb991ab4))
+* **deps:** lock file maintenance ([#181](https://github.com/zeshuaro/google_api_headers/issues/181)) ([4145fff](https://github.com/zeshuaro/google_api_headers/commit/4145fff801b9d78d4e8a62035bfb9b65e1fea66c))
+* **deps:** lock file maintenance ([#185](https://github.com/zeshuaro/google_api_headers/issues/185)) ([f1052f7](https://github.com/zeshuaro/google_api_headers/commit/f1052f7b25460a5a8a060152c5f00b5198b6b0fe))
+* **deps:** update dependency flutter to >=1.22.6 ([#194](https://github.com/zeshuaro/google_api_headers/issues/194)) ([b2bd884](https://github.com/zeshuaro/google_api_headers/commit/b2bd884b9288e1ef67ee0efaf38ed4e7d045f6bb))
+* **deps:** update dependency flutter_lints to v3 ([#176](https://github.com/zeshuaro/google_api_headers/issues/176)) ([b3d5b64](https://github.com/zeshuaro/google_api_headers/commit/b3d5b64059ead60673922c6b2c2cf68fc6c1058d))
+* **deps:** update dependency flutter_lints to v3.0.1 ([#183](https://github.com/zeshuaro/google_api_headers/issues/183)) ([ce58fd5](https://github.com/zeshuaro/google_api_headers/commit/ce58fd532b007465b47b057500f67cfaed1d9584))
+* **deps:** update dependency semantic-release to v22.0.6 ([#179](https://github.com/zeshuaro/google_api_headers/issues/179)) ([883d39b](https://github.com/zeshuaro/google_api_headers/commit/883d39b70c9777a394d1652afcc29d6530c21f0e))
+* **deps:** update dependency semantic-release to v22.0.7 ([#182](https://github.com/zeshuaro/google_api_headers/issues/182)) ([aaa55b9](https://github.com/zeshuaro/google_api_headers/commit/aaa55b94d1db62df4c9b1659da1831dbdfa38de8))
+* **deps:** update dependency semantic-release-pub to v0.3.3 ([#172](https://github.com/zeshuaro/google_api_headers/issues/172)) ([2a168e1](https://github.com/zeshuaro/google_api_headers/commit/2a168e10f2eb88ffe305a6eef068da2cbc4a19fa))
+* **example:** remove unused dependency `cupertino_icons` ([#190](https://github.com/zeshuaro/google_api_headers/issues/190)) ([3cdebeb](https://github.com/zeshuaro/google_api_headers/commit/3cdebebd130670dc0f107dfb3b6830cda8157a5d))
+* **example:** update podfile lock ([#198](https://github.com/zeshuaro/google_api_headers/issues/198)) ([1751e02](https://github.com/zeshuaro/google_api_headers/commit/1751e02a8db8f1704fd9cf4456db523fe19f016b))
+* **node:** update dependency node to v20 ([#174](https://github.com/zeshuaro/google_api_headers/issues/174)) ([75902ff](https://github.com/zeshuaro/google_api_headers/commit/75902ff73febab8ba57f8a1f546cad469a0597af))
+* pin node to 18.18.0 in `.nvmrc` ([#186](https://github.com/zeshuaro/google_api_headers/issues/186)) ([50a8179](https://github.com/zeshuaro/google_api_headers/commit/50a81793f896eadef3ca31ee5ebf8ae2c73e538d))
+* update android `minSdkVersion` to 23, kotlin to 1.8.22, gradle build tools to 7.4.2, and gradle to 7.5 ([#184](https://github.com/zeshuaro/google_api_headers/issues/184)) ([430aa9a](https://github.com/zeshuaro/google_api_headers/commit/430aa9aad729d05ac673483c5efb8f6dfe85edfb))
+
+
+### Continuous Integration
+
+* **deps:** update actions/setup-node action to v4 ([#175](https://github.com/zeshuaro/google_api_headers/issues/175)) ([40372a4](https://github.com/zeshuaro/google_api_headers/commit/40372a4146ef905b93fcee390a7bce3fa6abf0e5))
+* **deps:** update subosito/flutter-action action to v2.12.0 ([#178](https://github.com/zeshuaro/google_api_headers/issues/178)) ([e2358f1](https://github.com/zeshuaro/google_api_headers/commit/e2358f19ed99b594642d52bca966bf001a2ca0ee))
+* **deps:** update zeshuaro/github-actions-workflows digest to 4acc72d ([#187](https://github.com/zeshuaro/google_api_headers/issues/187)) ([531a15d](https://github.com/zeshuaro/google_api_headers/commit/531a15db64f30aaeda2ac84988a12f4d766350e6))
+* **deps:** update zeshuaro/github-actions-workflows digest to cba152d ([#180](https://github.com/zeshuaro/google_api_headers/issues/180)) ([af16fad](https://github.com/zeshuaro/google_api_headers/commit/af16faddcde7a16026831169a3e1e16284cab0bf))
+* **renovate:** add `flutterVersion` preset ([#193](https://github.com/zeshuaro/google_api_headers/issues/193)) ([2500614](https://github.com/zeshuaro/google_api_headers/commit/2500614ad91cebe6ad8013e5ec04b54ed7feb920))
+
 ## [2.0.3](https://github.com/zeshuaro/google_api_headers/compare/v2.0.2...v2.0.3) (2023-10-15)
 
 
