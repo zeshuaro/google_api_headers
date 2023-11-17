@@ -4,15 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:google_api_headers/google_api_headers.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
-  _MyAppState createState() => _MyAppState();
+  MyAppState createState() => MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class MyAppState extends State<MyApp> {
   Map<String, String>? _headers;
 
   @override
@@ -39,7 +41,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> getHeaders() async {
-    final headers = await GoogleApiHeaders().getHeaders();
+    final headers = await const GoogleApiHeaders().getHeaders();
     setState(() => _headers = headers);
   }
 }
