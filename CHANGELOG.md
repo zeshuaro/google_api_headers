@@ -1,3 +1,15 @@
+## [3.1.0](https://github.com/zeshuaro/google_api_headers/compare/v3.0.0...v3.1.0) (2023-11-17)
+
+
+### Features
+
+* **flutter:** update dependency flutter to v3 ([#200](https://github.com/zeshuaro/google_api_headers/issues/200)) ([67596aa](https://github.com/zeshuaro/google_api_headers/commit/67596aae4a6ce2e05e21044b0e4a8341bea9238e))
+
+
+### Continuous Integration
+
+* remove analyze job from main workflow ([#201](https://github.com/zeshuaro/google_api_headers/issues/201)) ([9ae5cc1](https://github.com/zeshuaro/google_api_headers/commit/9ae5cc18869603b8ba9649e7791a17d6881d6115))
+
 ## [3.0.0](https://github.com/zeshuaro/google_api_headers/compare/v2.0.3...v3.0.0) (2023-11-16)
 
 
