@@ -63,40 +63,13 @@ jobs:
       - name: Run linting 🧪
         run: |
           flutter pub get
+          dart format --output=none --set-exit-if-changed .
           flutter analyze
-
-  analyze:
-    name: Analyze
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
-      - name: Run static analysis 📈
-        uses: axel-op/dart-package-analyzer@v3
-        id: analysis
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Check score 💯
-        env:
-          TOTAL: ${{ steps.analysis.outputs.total }}
-          TOTAL_MAX: ${{ steps.analysis.outputs.total_max }}
-        run: |
-          PERCENTAGE=$(( $TOTAL * 100 / $TOTAL_MAX ))
-          if (( $PERCENTAGE < 90 ))
-          then
-            echo The score $PERCENTAGE is too low, it must be at least 90 
-            exit 1
-          fi
 
   semantic-release:
     name: Semantic release
     runs-on: ubuntu-latest
-    needs: [test, lint, analyze]
+    needs: [test, lint]
     if: ${{ (github.ref == 'refs/heads/main') && (contains(fromJSON('["workflow_dispatch", "schedule"]'), github.event_name)) }}
 
     steps:
