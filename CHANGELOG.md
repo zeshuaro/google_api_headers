@@ -1,3 +1,28 @@
+## [3.2.0](https://github.com/zeshuaro/google_api_headers/compare/v3.1.0...v3.2.0) (2023-11-26)
+
+
+### Features
+
+* **dart:** update dependency dart to v3 ([#199](https://github.com/zeshuaro/google_api_headers/issues/199)) ([385a0e8](https://github.com/zeshuaro/google_api_headers/commit/385a0e8116278194fecc04a2dc589e01bb0d52b8))
+* **flutter:** update dependency flutter to >=3.16.0 ([#204](https://github.com/zeshuaro/google_api_headers/issues/204)) ([c1f5fbf](https://github.com/zeshuaro/google_api_headers/commit/c1f5fbfff20fb062a5191add690d439f3968ca66))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#205](https://github.com/zeshuaro/google_api_headers/issues/205)) ([d3ade03](https://github.com/zeshuaro/google_api_headers/commit/d3ade03efa94d5f1e25d71fe9c61ed485d9a70f7))
+* **deps:** update dependency semantic-release to v22.0.8 ([#207](https://github.com/zeshuaro/google_api_headers/issues/207)) ([4bd3f73](https://github.com/zeshuaro/google_api_headers/commit/4bd3f73dffcd3763374afad9caf1311fcd03185b))
+* **deps:** update dependency semantic-release-pub to v0.4.0 ([#208](https://github.com/zeshuaro/google_api_headers/issues/208)) ([71f42d5](https://github.com/zeshuaro/google_api_headers/commit/71f42d586c57a9b5b13a46dfe4d1c53f0ed21b5c))
+* **deps:** update dependency semantic-release-pub to v0.5.0 ([#209](https://github.com/zeshuaro/google_api_headers/issues/209)) ([e7a52fb](https://github.com/zeshuaro/google_api_headers/commit/e7a52fb8428f81e2967038b6624dfbb4f90d1d45))
+* **example/deps:** lock file maintenance example dependencies ([#206](https://github.com/zeshuaro/google_api_headers/issues/206)) ([4c81e46](https://github.com/zeshuaro/google_api_headers/commit/4c81e46a682dba28658acad5523e3dfa30d3a5fb))
+* **example:** setup linting ([#202](https://github.com/zeshuaro/google_api_headers/issues/202)) ([4f9b560](https://github.com/zeshuaro/google_api_headers/commit/4f9b56086bda8add9ca1f152c3e1da0373f9f2d9))
+* **node:** update dependency node to v20.10.0 ([#212](https://github.com/zeshuaro/google_api_headers/issues/212)) ([2d1b455](https://github.com/zeshuaro/google_api_headers/commit/2d1b4553e61e6fe3f1f906fcc0858689957375e1))
+
+
+### Continuous Integration
+
+* **deps:** update kuhnroyal/flutter-fvm-config-action action to v2 ([#203](https://github.com/zeshuaro/google_api_headers/issues/203)) ([243404c](https://github.com/zeshuaro/google_api_headers/commit/243404c6c633583e4774a90460150d109ace07d4))
+* **deps:** update zeshuaro/github-actions-workflows digest to 4cdebe8 ([#210](https://github.com/zeshuaro/google_api_headers/issues/210)) ([4e12e10](https://github.com/zeshuaro/google_api_headers/commit/4e12e106ebc5e4995921f5125c4ead3cb04c5e57))
+
 ## [3.1.0](https://github.com/zeshuaro/google_api_headers/compare/v3.0.0...v3.1.0) (2023-11-17)
 
 
