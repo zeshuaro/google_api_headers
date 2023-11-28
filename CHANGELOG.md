@@ -1,3 +1,16 @@
+## [3.2.1](https://github.com/zeshuaro/google_api_headers/compare/v3.2.0...v3.2.1) (2023-11-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to v5 ([#217](https://github.com/zeshuaro/google_api_headers/issues/217)) ([187b1de](https://github.com/zeshuaro/google_api_headers/commit/187b1de0ccd816e88b09a7c2e8b7e0a9fc6ff3de))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#213](https://github.com/zeshuaro/google_api_headers/issues/213)) ([63a11c5](https://github.com/zeshuaro/google_api_headers/commit/63a11c5285774216de7a3784f41499a060f26810))
+* **example/deps:** lock file maintenance ([#214](https://github.com/zeshuaro/google_api_headers/issues/214)) ([34d974f](https://github.com/zeshuaro/google_api_headers/commit/34d974f9586590021a21232fb4e3a5c404379c7d))
+
 ## [3.2.0](https://github.com/zeshuaro/google_api_headers/compare/v3.1.0...v3.2.0) (2023-11-26)
 
 
