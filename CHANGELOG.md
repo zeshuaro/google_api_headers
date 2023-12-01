@@ -1,3 +1,27 @@
+## [3.3.0](https://github.com/zeshuaro/google_api_headers/compare/v3.2.1...v3.3.0) (2023-12-01)
+
+
+### Features
+
+* **sdk:** update dependency dart to >=3.2.1 <4.0.0 ([#211](https://github.com/zeshuaro/google_api_headers/issues/211)) ([6fb601a](https://github.com/zeshuaro/google_api_headers/commit/6fb601aa910a917797ad83f02a3fcaff62f8cae8))
+* **sdk:** update dependency flutter to >=3.16.1 ([#216](https://github.com/zeshuaro/google_api_headers/issues/216)) ([cceed16](https://github.com/zeshuaro/google_api_headers/commit/cceed16e22adf335d47ed80a34034381ecc86f79))
+
+
+### Documentation
+
+* add funding ([#220](https://github.com/zeshuaro/google_api_headers/issues/220)) ([c4e9201](https://github.com/zeshuaro/google_api_headers/commit/c4e92014b1128e825c8d64001c5810a5f6bc142b))
+
+
+### Miscellaneous Chores
+
+* add typos config ([#222](https://github.com/zeshuaro/google_api_headers/issues/222)) ([b25fa02](https://github.com/zeshuaro/google_api_headers/commit/b25fa0243c43307c8836f2248c7b35a52022583b))
+
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 9c504ac ([#221](https://github.com/zeshuaro/google_api_headers/issues/221)) ([77be329](https://github.com/zeshuaro/google_api_headers/commit/77be329054f2357fe7722df52bad55a3b83fabb8))
+* **deps:** update zeshuaro/github-actions-workflows digest to d039a20 ([#218](https://github.com/zeshuaro/google_api_headers/issues/218)) ([6211190](https://github.com/zeshuaro/google_api_headers/commit/62111902986d34939d7ff88e6159867ae79bb0ea))
+
 ## [3.2.1](https://github.com/zeshuaro/google_api_headers/compare/v3.2.0...v3.2.1) (2023-11-28)
 
 
