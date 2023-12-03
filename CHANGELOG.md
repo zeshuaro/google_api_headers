@@ -1,3 +1,16 @@
+## [3.4.0](https://github.com/zeshuaro/google_api_headers/compare/v3.3.0...v3.4.0) (2023-12-03)
+
+
+### Features
+
+* **sdk:** update dependency dart to >=3.2.2 <4.0.0 ([#219](https://github.com/zeshuaro/google_api_headers/issues/219)) ([a5eae14](https://github.com/zeshuaro/google_api_headers/commit/a5eae14070e208f78199dd112a0b114d19492d76))
+* **sdk:** update dependency flutter to >=3.16.2 ([#223](https://github.com/zeshuaro/google_api_headers/issues/223)) ([345a48d](https://github.com/zeshuaro/google_api_headers/commit/345a48d922341c16a1b2a3a153f804aaafbeabbd))
+
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to b9c8d75 ([#224](https://github.com/zeshuaro/google_api_headers/issues/224)) ([84fdb12](https://github.com/zeshuaro/google_api_headers/commit/84fdb128011e95baee159cf82d7a66e12265572e))
+
 ## [3.3.0](https://github.com/zeshuaro/google_api_headers/compare/v3.2.1...v3.3.0) (2023-12-01)
 
 
