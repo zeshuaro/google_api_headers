@@ -31,9 +31,14 @@ android {
     }
     compileSdkVersion 33
 
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+
     defaultConfig {
         minSdkVersion 23
     }
