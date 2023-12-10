@@ -1,3 +1,34 @@
+## [3.5.0](https://github.com/zeshuaro/google_api_headers/compare/v3.4.0...v3.5.0) (2023-12-10)
+
+
+### Features
+
+* **sdk:** update dependency dart to >=3.2.3 <4.0.0 ([#232](https://github.com/zeshuaro/google_api_headers/issues/232)) ([b6722a5](https://github.com/zeshuaro/google_api_headers/commit/b6722a511ef7c4100055d8771da5abaab707e5e2))
+* **sdk:** update dependency flutter to >=3.16.3 ([#233](https://github.com/zeshuaro/google_api_headers/issues/233)) ([a621691](https://github.com/zeshuaro/google_api_headers/commit/a621691d4374a00871d03c595431ea77fdb75e69))
+
+
+### Bug Fixes
+
+* set `jvmTarget` to 1.8 for `kotlinOptions` ([#231](https://github.com/zeshuaro/google_api_headers/issues/231)) ([2464d9f](https://github.com/zeshuaro/google_api_headers/commit/2464d9ffd98bb750981a0f278cf42c176f4fbee6))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#227](https://github.com/zeshuaro/google_api_headers/issues/227)) ([17304c4](https://github.com/zeshuaro/google_api_headers/commit/17304c48b5e15efe894feed412940d604cb9a33c))
+* **deps:** update dependency build_runner to v2.4.7 ([#229](https://github.com/zeshuaro/google_api_headers/issues/229)) ([68ad45a](https://github.com/zeshuaro/google_api_headers/commit/68ad45a0759e26345d56bebcf8c40ab328326e04))
+* **deps:** update dependency semantic-release to v22.0.10 ([#238](https://github.com/zeshuaro/google_api_headers/issues/238)) ([d938b6d](https://github.com/zeshuaro/google_api_headers/commit/d938b6d92620a7b94640a51393c30f6143054079))
+* **deps:** update dependency semantic-release to v22.0.9 ([#235](https://github.com/zeshuaro/google_api_headers/issues/235)) ([1619cb2](https://github.com/zeshuaro/google_api_headers/commit/1619cb27be6d599dcb24680a4b696dba12119511))
+* **deps:** update dependency semantic-release-pub to v0.6.1 ([#230](https://github.com/zeshuaro/google_api_headers/issues/230)) ([c9236c4](https://github.com/zeshuaro/google_api_headers/commit/c9236c4c94b284fd868b46a74c37bcc0e436cea4))
+* **example/deps:** lock file maintenance ([#228](https://github.com/zeshuaro/google_api_headers/issues/228)) ([3bbba6d](https://github.com/zeshuaro/google_api_headers/commit/3bbba6de72549e3420d9edbc1e843a5b910985c2))
+
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 3fc2038 ([#234](https://github.com/zeshuaro/google_api_headers/issues/234)) ([5ff80ca](https://github.com/zeshuaro/google_api_headers/commit/5ff80cab9012b59bc03f41f8fc0bffcc7d96a5eb))
+* **deps:** update zeshuaro/github-actions-workflows digest to 4d58104 ([#236](https://github.com/zeshuaro/google_api_headers/issues/236)) ([c6a45ae](https://github.com/zeshuaro/google_api_headers/commit/c6a45aeb1f9eeb68a9d012ac0aab37b19f1b10c8))
+* **deps:** update zeshuaro/github-actions-workflows digest to 6be9096 ([#237](https://github.com/zeshuaro/google_api_headers/issues/237)) ([273cd1f](https://github.com/zeshuaro/google_api_headers/commit/273cd1f6f7cc89b55122f0add8e62e7add3e2711))
+* rename release step ([#226](https://github.com/zeshuaro/google_api_headers/issues/226)) ([f72373c](https://github.com/zeshuaro/google_api_headers/commit/f72373cf23f409473dc5b09695bcbd54e6aa0ed7))
+
 ## [3.4.0](https://github.com/zeshuaro/google_api_headers/compare/v3.3.0...v3.4.0) (2023-12-03)
 
 
