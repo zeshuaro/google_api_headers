@@ -1,3 +1,23 @@
+## [3.6.0](https://github.com/zeshuaro/google_api_headers/compare/v3.5.0...v3.6.0) (2023-12-17)
+
+
+### Features
+
+* **sdk:** update dependency flutter to >=3.16.4 ([#242](https://github.com/zeshuaro/google_api_headers/issues/242)) ([7d028a8](https://github.com/zeshuaro/google_api_headers/commit/7d028a8387b78f7b62d351d9b18b4c582690273b))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#239](https://github.com/zeshuaro/google_api_headers/issues/239)) ([a898811](https://github.com/zeshuaro/google_api_headers/commit/a8988111fab9eef5e6a2326557ed45d5998e1f4d))
+* **deps:** update dependency semantic-release to v22.0.12 ([#243](https://github.com/zeshuaro/google_api_headers/issues/243)) ([917462b](https://github.com/zeshuaro/google_api_headers/commit/917462baee2f27910e06e4d0b30c232183f77b81))
+* **deps:** update dependency semantic-release-pub to v0.6.2 ([#241](https://github.com/zeshuaro/google_api_headers/issues/241)) ([3dedeab](https://github.com/zeshuaro/google_api_headers/commit/3dedeabd63362210dfc94571123c282c2a2be08f))
+* **example/deps:** lock file maintenance ([#240](https://github.com/zeshuaro/google_api_headers/issues/240)) ([1aea4dc](https://github.com/zeshuaro/google_api_headers/commit/1aea4dc01fc0fddabbc6ba1bf5e340501d488bb3))
+
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to fe18491 ([#244](https://github.com/zeshuaro/google_api_headers/issues/244)) ([13f80e5](https://github.com/zeshuaro/google_api_headers/commit/13f80e59dfdea86bd1e719a642ce466491cd06c8))
+
 ## [3.5.0](https://github.com/zeshuaro/google_api_headers/compare/v3.4.0...v3.5.0) (2023-12-10)
 
 
