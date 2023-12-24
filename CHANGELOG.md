@@ -1,3 +1,17 @@
+## [3.7.0](https://github.com/zeshuaro/google_api_headers/compare/v3.6.0...v3.7.0) (2023-12-24)
+
+
+### Features
+
+* **sdk:** update dependency flutter to >=3.16.5 ([#247](https://github.com/zeshuaro/google_api_headers/issues/247)) ([0eac631](https://github.com/zeshuaro/google_api_headers/commit/0eac63151d9786547cbd28d63c2011a8717220e3))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#245](https://github.com/zeshuaro/google_api_headers/issues/245)) ([ee304ca](https://github.com/zeshuaro/google_api_headers/commit/ee304caca3540892514bcf95c12269c0f805d198))
+* **deps:** update dependency mocktail to v1.0.2 ([#248](https://github.com/zeshuaro/google_api_headers/issues/248)) ([29fda60](https://github.com/zeshuaro/google_api_headers/commit/29fda6057b2bf53a41a4654bef3d29aed313459d))
+* **example/deps:** lock file maintenance ([#246](https://github.com/zeshuaro/google_api_headers/issues/246)) ([14a9223](https://github.com/zeshuaro/google_api_headers/commit/14a9223d073deff6dac2cda579dd0ee42bf3c07b))
+
 ## [3.6.0](https://github.com/zeshuaro/google_api_headers/compare/v3.5.0...v3.6.0) (2023-12-17)
 
 
