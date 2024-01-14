@@ -5,6 +5,7 @@
 [![MIT License](https://img.shields.io/github/license/zeshuaro/google_api_headers.svg)](https://github.com/zeshuaro/google_api_headers/blob/main/LICENSE)
 [![GitHub Actions](https://github.com/zeshuaro/google_api_headers/actions/workflows/github-actions.yml/badge.svg)](https://github.com/zeshuaro/google_api_headers/actions/workflows/github-actions.yml)
 [![codecov](https://codecov.io/gh/zeshuaro/google_api_headers/branch/main/graph/badge.svg?token=4IVF5MBLTS)](https://codecov.io/gh/zeshuaro/google_api_headers)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/eb770d6b694640f597e8c0de21117d19)](https://app.codacy.com/gh/zeshuaro/google_api_headers/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![style: flutter_lints](https://img.shields.io/badge/style-flutter__lints-4BC0F5.svg)](https://pub.dev/packages/flutter_lints)
 
 [![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/zeshuaro)
