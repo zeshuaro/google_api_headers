@@ -1,3 +1,19 @@
+## [3.7.3](https://github.com/zeshuaro/google_api_headers/compare/v3.7.2...v3.7.3) (2024-01-28)
+
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.2.6 <4.0.0 ([#292](https://github.com/zeshuaro/google_api_headers/issues/292)) ([b1179aa](https://github.com/zeshuaro/google_api_headers/commit/b1179aae2b8b8fb89f359d0e639a414a07fa72d7))
+* **sdk:** update dependency flutter to >=3.16.9 ([#294](https://github.com/zeshuaro/google_api_headers/issues/294)) ([35bfc0b](https://github.com/zeshuaro/google_api_headers/commit/35bfc0bcd62404a2bbe2950b0f0a369945637bd1))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#289](https://github.com/zeshuaro/google_api_headers/issues/289)) ([4126c21](https://github.com/zeshuaro/google_api_headers/commit/4126c2155d4d2e61a46461600c0284c357e68f7f))
+* **deps:** update dependency mocktail to v1.0.3 ([#293](https://github.com/zeshuaro/google_api_headers/issues/293)) ([eca3338](https://github.com/zeshuaro/google_api_headers/commit/eca3338a7e6365fbc95ac45dac7ab04702cce6e1))
+* **deps:** update dependency semantic-release-pub to v0.8.0 ([#291](https://github.com/zeshuaro/google_api_headers/issues/291)) ([db2ed19](https://github.com/zeshuaro/google_api_headers/commit/db2ed19ca9b2bc89df0ed05fa6873ce7d46df742))
+* **example/deps:** lock file maintenance ([#290](https://github.com/zeshuaro/google_api_headers/issues/290)) ([61b00d2](https://github.com/zeshuaro/google_api_headers/commit/61b00d2110e23c3dc7a478f7debef2a5cff59c79))
+
 ## [3.7.2](https://github.com/zeshuaro/google_api_headers/compare/v3.7.1...v3.7.2) (2024-01-21)
 
 
