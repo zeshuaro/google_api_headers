@@ -1,3 +1,23 @@
+## [3.8.2](https://github.com/zeshuaro/google_api_headers/compare/v3.8.1...v3.8.2) (2024-03-03)
+
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to >=3.19.2 ([#322](https://github.com/zeshuaro/google_api_headers/issues/322)) ([954e691](https://github.com/zeshuaro/google_api_headers/commit/954e6917e5d52018a46a86bd68c1a478db8b000d))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#319](https://github.com/zeshuaro/google_api_headers/issues/319)) ([b959e27](https://github.com/zeshuaro/google_api_headers/commit/b959e27e7b07682b69234d29bfbefc5b58ce5de2))
+* **deps:** lock file maintenance ([#320](https://github.com/zeshuaro/google_api_headers/issues/320)) ([e696822](https://github.com/zeshuaro/google_api_headers/commit/e696822af5394fc72b5598dc09189c5444acc100))
+
+
+### Continuous Integration
+
+* **deps:** update subosito/flutter-action action to v2.13.0 ([#324](https://github.com/zeshuaro/google_api_headers/issues/324)) ([879b394](https://github.com/zeshuaro/google_api_headers/commit/879b394c2fe2903b980d94307b09979f184df9e1))
+* **deps:** update zeshuaro/github-actions-workflows digest to a5f4945 ([#321](https://github.com/zeshuaro/google_api_headers/issues/321)) ([4fd6cc1](https://github.com/zeshuaro/google_api_headers/commit/4fd6cc1ff3f203c4c257bb5c57b206607dde5168))
+* **deps:** update zeshuaro/github-actions-workflows digest to d758501 ([#323](https://github.com/zeshuaro/google_api_headers/issues/323)) ([305b40a](https://github.com/zeshuaro/google_api_headers/commit/305b40a79cac93290e94379d8641ccaab5d99955))
+
 ## [3.8.1](https://github.com/zeshuaro/google_api_headers/compare/v3.8.0...v3.8.1) (2024-02-25)
 
 
