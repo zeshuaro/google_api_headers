@@ -1,3 +1,17 @@
+## [3.8.3](https://github.com/zeshuaro/google_api_headers/compare/v3.8.2...v3.8.3) (2024-03-10)
+
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.3.1 <4.0.0 ([#327](https://github.com/zeshuaro/google_api_headers/issues/327)) ([2891762](https://github.com/zeshuaro/google_api_headers/commit/28917629efa722cf21a3ae4424f7107d5322100a))
+* **sdk:** update dependency flutter to >=3.19.3 ([#328](https://github.com/zeshuaro/google_api_headers/issues/328)) ([5f73567](https://github.com/zeshuaro/google_api_headers/commit/5f7356715fea873e135d5ca51e8eebd6b1f95ef5))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#325](https://github.com/zeshuaro/google_api_headers/issues/325)) ([d30892d](https://github.com/zeshuaro/google_api_headers/commit/d30892d9f05b0ed7336fee3851f5886cd903f7cf))
+* **deps:** update dependency semantic-release-pub to v0.8.4 ([#326](https://github.com/zeshuaro/google_api_headers/issues/326)) ([fbe0004](https://github.com/zeshuaro/google_api_headers/commit/fbe0004a321169cc72ea24d6f8233781aa915471))
+
 ## [3.8.2](https://github.com/zeshuaro/google_api_headers/compare/v3.8.1...v3.8.2) (2024-03-03)
 
 
