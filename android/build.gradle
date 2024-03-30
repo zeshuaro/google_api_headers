@@ -29,7 +29,7 @@ android {
     if (project.android.hasProperty("namespace")) {
       namespace 'io.github.zeshuaro.google_api_headers'
     }
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     kotlinOptions {
         jvmTarget = '1.8'
