@@ -1,3 +1,28 @@
+## [4.0.0](https://github.com/zeshuaro/google_api_headers/compare/v3.8.4...v4.0.0) (2024-03-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* update compileSdkVersion to 34 and dependency package_info_plus to v6 (#345)
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.3.3 <4.0.0 ([#344](https://github.com/zeshuaro/google_api_headers/issues/344)) ([39dfa34](https://github.com/zeshuaro/google_api_headers/commit/39dfa34e34503379eed21049c24064385c31db32))
+* **sdk:** update dependency flutter to >=3.19.5 ([#346](https://github.com/zeshuaro/google_api_headers/issues/346)) ([6b2cf44](https://github.com/zeshuaro/google_api_headers/commit/6b2cf4441fc1c5d0f3b9058766e64be417aae42f))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#340](https://github.com/zeshuaro/google_api_headers/issues/340)) ([ba428c5](https://github.com/zeshuaro/google_api_headers/commit/ba428c591c6ce083c8121dce6ccf372f371cc4bf))
+* **deps:** update dependency semantic-release to v23.0.6 ([#343](https://github.com/zeshuaro/google_api_headers/issues/343)) ([954be9d](https://github.com/zeshuaro/google_api_headers/commit/954be9d6edf99f784cc33f4fc8d46762705cb87d))
+* **node:** update dependency node to v20.12.0 ([#342](https://github.com/zeshuaro/google_api_headers/issues/342)) ([99f7b50](https://github.com/zeshuaro/google_api_headers/commit/99f7b5037d83628e605fdad760d67e13a17f7d29))
+* update compileSdkVersion to 34 and dependency package_info_plus to v6 ([#345](https://github.com/zeshuaro/google_api_headers/issues/345)) ([f8f1057](https://github.com/zeshuaro/google_api_headers/commit/f8f1057a44cf0f92312d39febc79c983d45abdc9))
+
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 62153fd ([#341](https://github.com/zeshuaro/google_api_headers/issues/341)) ([4da9f30](https://github.com/zeshuaro/google_api_headers/commit/4da9f30ca2ba268b70d3571216cebe62bc8eb840))
+
 ## [3.8.4](https://github.com/zeshuaro/google_api_headers/compare/v3.8.3...v3.8.4) (2024-03-24)
 
 
