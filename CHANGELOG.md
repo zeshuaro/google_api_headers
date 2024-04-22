@@ -1,3 +1,15 @@
+## [4.0.2](https://github.com/zeshuaro/google_api_headers/compare/v4.0.1...v4.0.2) (2024-04-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to v7 ([#366](https://github.com/zeshuaro/google_api_headers/issues/366)) ([9ae0705](https://github.com/zeshuaro/google_api_headers/commit/9ae07053fce1a092c12223522627074993964087))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#371](https://github.com/zeshuaro/google_api_headers/issues/371)) ([5e82847](https://github.com/zeshuaro/google_api_headers/commit/5e82847aa1b1ba8167ffc3fad1c347f665c49efc))
+
 ## [4.0.1](https://github.com/zeshuaro/google_api_headers/compare/v4.0.0...v4.0.1) (2024-04-21)
 
 
