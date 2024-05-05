@@ -1,3 +1,25 @@
+## [4.0.3](https://github.com/zeshuaro/google_api_headers/compare/v4.0.2...v4.0.3) (2024-05-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to v8 ([#377](https://github.com/zeshuaro/google_api_headers/issues/377)) ([76ae614](https://github.com/zeshuaro/google_api_headers/commit/76ae6145788fef432870b939e568f88f1c1a345f))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#376](https://github.com/zeshuaro/google_api_headers/issues/376)) ([d8effa1](https://github.com/zeshuaro/google_api_headers/commit/d8effa1f933c0da396c565d27ec3572342e5989e))
+* **deps:** update dependency semantic-release-pub to v0.8.10 ([#373](https://github.com/zeshuaro/google_api_headers/issues/373)) ([d6232a5](https://github.com/zeshuaro/google_api_headers/commit/d6232a599dc4e2cbc59c5c784e2582321b25ce3b))
+* **deps:** update dependency semantic-release-pub to v0.8.11 ([#379](https://github.com/zeshuaro/google_api_headers/issues/379)) ([b569b98](https://github.com/zeshuaro/google_api_headers/commit/b569b983440d9a2a190d80f7bf71b39ff9c52507))
+
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 178a6a5 ([#372](https://github.com/zeshuaro/google_api_headers/issues/372)) ([ee6271e](https://github.com/zeshuaro/google_api_headers/commit/ee6271eb26152ac278be1b153214ab09418beff8))
+* **deps:** update zeshuaro/github-actions-workflows digest to 1aad210 ([#375](https://github.com/zeshuaro/google_api_headers/issues/375)) ([3008610](https://github.com/zeshuaro/google_api_headers/commit/300861099c3c808b01ffede8377ea0ff65c3846f))
+* **deps:** update zeshuaro/github-actions-workflows digest to 2df7bb9 ([#374](https://github.com/zeshuaro/google_api_headers/issues/374)) ([7829639](https://github.com/zeshuaro/google_api_headers/commit/7829639eba8b147582c4774074aa2cca69f41340))
+* **deps:** update zeshuaro/github-actions-workflows digest to 2fceba8 ([#378](https://github.com/zeshuaro/google_api_headers/issues/378)) ([5a3ee9f](https://github.com/zeshuaro/google_api_headers/commit/5a3ee9fdbd296d38f3f921a77c5da0b5b055f3a4))
+
 ## [4.0.2](https://github.com/zeshuaro/google_api_headers/compare/v4.0.1...v4.0.2) (2024-04-22)
 
 
