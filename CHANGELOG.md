@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/zeshuaro/google_api_headers/compare/v4.1.0...v4.1.1) (2024-05-26)
+
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to >=3.22.1 ([#398](https://github.com/zeshuaro/google_api_headers/issues/398)) ([bc79f56](https://github.com/zeshuaro/google_api_headers/commit/bc79f56860aa60fd18c96ff71b9d6299d57810d4))
+
 ## [4.1.0](https://github.com/zeshuaro/google_api_headers/compare/v4.0.3...v4.1.0) (2024-05-25)
 
 
