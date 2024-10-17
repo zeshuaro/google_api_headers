@@ -25,13 +25,3 @@ flutter:
       android:
         package: io.github.zeshuaro.google_api_headers
         pluginClass: GoogleApiHeadersPlugin
-      ios:
-        default_package: google_api_headers
-      web:
-        default_package: google_api_headers
-      macos:
-        default_package: google_api_headers
-      windows:
-        default_package: google_api_headers
-      linux:
-        default_package: google_api_headers
