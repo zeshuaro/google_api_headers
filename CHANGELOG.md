@@ -1,3 +1,27 @@
+## [4.2.6](https://github.com/zeshuaro/google_api_headers/compare/v4.2.5...v4.2.6) (2024-11-17)
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to ^8.1.1 ([#529](https://github.com/zeshuaro/google_api_headers/issues/529)) ([f0e0bae](https://github.com/zeshuaro/google_api_headers/commit/f0e0bae6850570e7961077725db876b79d481356))
+* **sdk:** update dependency flutter to v3.24.5 ([#528](https://github.com/zeshuaro/google_api_headers/issues/528)) ([e35b421](https://github.com/zeshuaro/google_api_headers/commit/e35b421f4a141d169c2f1b303873f0587614e63b))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#519](https://github.com/zeshuaro/google_api_headers/issues/519)) ([1bc7427](https://github.com/zeshuaro/google_api_headers/commit/1bc7427d5b95d7dba348b923656c3e0759e58689))
+* **deps:** lock file maintenance ([#524](https://github.com/zeshuaro/google_api_headers/issues/524)) ([f350de9](https://github.com/zeshuaro/google_api_headers/commit/f350de9a3f7217e96c229d8c83f625a835e5b5e8))
+* **deps:** lock file maintenance ([#527](https://github.com/zeshuaro/google_api_headers/issues/527)) ([61b3b52](https://github.com/zeshuaro/google_api_headers/commit/61b3b5247f7f127f0b1cd1606213e00cfd51000d))
+* **deps:** update dependency flutter_lints to v5 ([#498](https://github.com/zeshuaro/google_api_headers/issues/498)) ([0018f69](https://github.com/zeshuaro/google_api_headers/commit/0018f692f1638bb8e15838c16ac27e8d115a58eb))
+* **deps:** update dependency semantic-release to v24.2.0 ([#521](https://github.com/zeshuaro/google_api_headers/issues/521)) ([c91320a](https://github.com/zeshuaro/google_api_headers/commit/c91320a41b921e4dfa3a8d78fbdd031d5d60ac95))
+* **deps:** update dependency semantic-release-pub to v0.9.0 ([#525](https://github.com/zeshuaro/google_api_headers/issues/525)) ([0cc09e4](https://github.com/zeshuaro/google_api_headers/commit/0cc09e466a642d2bcada2b4b751273f635a8e1da))
+* **node:** update dependency node to v22 ([#522](https://github.com/zeshuaro/google_api_headers/issues/522)) ([30a0390](https://github.com/zeshuaro/google_api_headers/commit/30a0390867eedcbad7424a2c10d409af1362b8de))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 242231c ([#523](https://github.com/zeshuaro/google_api_headers/issues/523)) ([acb5a31](https://github.com/zeshuaro/google_api_headers/commit/acb5a31a567e93a453380ee0f5289ab34a914e8f))
+* **deps:** update zeshuaro/github-actions-workflows digest to 568e620 ([#530](https://github.com/zeshuaro/google_api_headers/issues/530)) ([265f647](https://github.com/zeshuaro/google_api_headers/commit/265f6477c23d280d9d213ca6cf8beca1ee3c625f))
+* **deps:** update zeshuaro/github-actions-workflows digest to 71a020b ([#520](https://github.com/zeshuaro/google_api_headers/issues/520)) ([dd641e1](https://github.com/zeshuaro/google_api_headers/commit/dd641e1554ea5a46babe0006c1816170959661cd))
+* **deps:** update zeshuaro/github-actions-workflows digest to d138fda ([#526](https://github.com/zeshuaro/google_api_headers/issues/526)) ([635f92e](https://github.com/zeshuaro/google_api_headers/commit/635f92ed2cb995328ba38652018891e8e6a56569))
+
 ## [4.2.5](https://github.com/zeshuaro/google_api_headers/compare/v4.2.4...v4.2.5) (2024-10-27)
 
 ### Bug Fixes
