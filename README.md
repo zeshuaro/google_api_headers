@@ -23,7 +23,7 @@ Add this to your project's `pubspec.yaml` file:
 
 ```yml
 dependencies:
-  google_api_headers: ^4.3.0
+  google_api_headers: ^4.3.1
 ```
 
 ## Usage
