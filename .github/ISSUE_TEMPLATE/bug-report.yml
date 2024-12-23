@@ -15,6 +15,20 @@ body:
 
         Please note, we only support the latest version of google_api_headers, `main` branch and stable version of Flutter. Please make sure to upgrade & recreate the issue on the latest version prior to opening an issue.
 
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Web
+        - MacOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
