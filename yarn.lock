@@ -201,17 +201,17 @@
   integrity sha512-+t5DZ6mO/QFh78PByMq1fGSAub/agLJZDRfJRMeOSNCt8s9YVlTjmGpIPwPhvXTGUIJk+WszlT0rQa1W33yzNA==
 
 "@npmcli/package-json@^6.0.0", "@npmcli/package-json@^6.0.1", "@npmcli/package-json@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@npmcli/package-json/-/package-json-6.1.0.tgz#34f0875da178b04df1a7746c02bdc26479819afb"
-  integrity sha512-t6G+6ZInT4X+tqj2i+wlLIeCKnKOTuz9/VFYDtj+TGTur5q7sp/OYrQA19LdBbWfXDOi0Y4jtedV6xtB8zQ9ug==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@npmcli/package-json/-/package-json-6.1.1.tgz#78ff92d138fdcb85f31cab907455d5db96d017cb"
+  integrity sha512-d5qimadRAUCO4A/Txw71VM7UrRZzV+NPclxz/dc+M6B2oYwjWTjqh8HA/sGQgs9VZuJ6I/P7XIAlJvgrl27ZOw==
   dependencies:
     "@npmcli/git" "^6.0.0"
     glob "^10.2.2"
     hosted-git-info "^8.0.0"
     json-parse-even-better-errors "^4.0.0"
-    normalize-package-data "^7.0.0"
     proc-log "^5.0.0"
     semver "^7.5.3"
+    validate-npm-package-license "^3.0.4"
 
 "@npmcli/promise-spawn@^8.0.0", "@npmcli/promise-spawn@^8.0.2":
   version "8.0.2"
@@ -316,9 +316,9 @@
     "@octokit/types" "^13.6.2"
 
 "@octokit/request@^9.1.4":
-  version "9.1.4"
-  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-9.1.4.tgz#c1e90bd57c3113253d27337c92609b8fed54d13b"
-  integrity sha512-tMbOwGm6wDII6vygP3wUVqFTw3Aoo0FnVQyhihh8vVq12uO3P+vQZeo2CKMpWtPSogpACD0yyZAlVlQnjW71DA==
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-9.2.0.tgz#21aa1e72ff645f5b99ccf4a590cc33c4578bb356"
+  integrity sha512-kXLfcxhC4ozCnAXy2ff+cSxpcF0A1UqxjvYMqNuPIeOAzJbVWQ+dy5G2fTylofB/gTbObT8O6JORab+5XtA1Kw==
   dependencies:
     "@octokit/endpoint" "^10.0.0"
     "@octokit/request-error" "^6.0.1"
@@ -482,9 +482,9 @@
   integrity sha512-nYxaSb/MtlSI+JWcwTHQxyNmWeWrUXJJ/G4liLrGG7+tS4vAz6LF3xRXqLH6wPIVUoZQel2Fs4ddLx4NCpiIYg==
 
 "@sigstore/protobuf-specs@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@sigstore/protobuf-specs/-/protobuf-specs-0.3.2.tgz#5becf88e494a920f548d0163e2978f81b44b7d6f"
-  integrity sha512-c6B0ehIWxMI8wiS/bj6rHMPqeFvngFV7cDU/MY+B16P9Z3Mp9k8L93eYZ7BYzSickzuqAQqAq0V956b3Ju6mLw==
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@sigstore/protobuf-specs/-/protobuf-specs-0.3.3.tgz#7dd46d68b76c322873a2ef7581ed955af6f4dcde"
+  integrity sha512-RpacQhBlwpBWd7KEJsRKcBQalbV28fvkxwTOJIqhIuDysMMaJW47V4OqW30iJB9uRpqOSxxEAQFdr8tTattReQ==
 
 "@sigstore/sign@^3.0.0":
   version "3.0.0"
@@ -557,11 +557,6 @@
   version "7.5.8"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.8.tgz#8268a8c57a3e4abd25c165ecd36237db7948a55e"
   integrity sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==
-
-abbrev@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-2.0.0.tgz#cf59829b8b4f03f89dda2771cb7f3653828c89bf"
-  integrity sha512-6/mh1E2u2YgEsCHdY0Yx5oW+61gZU+1vXaoiHHrpKeuRNNgFvS+/jrwHiQhB5apAf5oB7UB7E19ol2R2LKH8hQ==
 
 abbrev@^3.0.0:
   version "3.0.0"
@@ -1245,9 +1240,9 @@ from2@^2.3.0:
     readable-stream "^2.0.0"
 
 fs-extra@^11.0.0:
-  version "11.2.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.2.0.tgz#e70e17dfad64232287d01929399e0ea7c86b0e5b"
-  integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.0.tgz#0daced136bbaf65a555a326719af931adc7a314d"
+  integrity sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -1379,9 +1374,9 @@ globby@^14.0.0:
     unicorn-magic "^0.1.0"
 
 google-auth-library@^9.15.0:
-  version "9.15.0"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.15.0.tgz#1b009c08557929c881d72f953f17e839e91b009b"
-  integrity sha512-7ccSEJFDFO7exFbO6NRyC+xH8/mZ1GZGG2xxx9iHxZWcjUjJpjWxIMw3cofAKcueZ6DATiukmmprD7yavQHOyQ==
+  version "9.15.1"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.15.1.tgz#0c5d84ed1890b2375f1cd74f03ac7b806b392928"
+  integrity sha512-Jb6Z0+nvECVz+2lzSMt9u98UsoakXxA2HGHMCxh+so3n90XgYWkq5dur19JAJV7ONiJY22yBTyJB1TSkvPq9Ng==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -2227,11 +2222,11 @@ node-gyp@^11.0.0:
     which "^5.0.0"
 
 nopt@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/nopt/-/nopt-8.0.0.tgz#644f1e78da564b70e3606ab8db4836b0e32e198a"
-  integrity sha512-1L/fTJ4UmV/lUxT2Uf006pfZKTvAgCF+chz+0OgBHO8u2Z67pE7AaAUUj7CJy0lXqHmymUvGFt6NE9R3HER0yw==
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/nopt/-/nopt-8.1.0.tgz#b11d38caf0f8643ce885818518064127f602eae3"
+  integrity sha512-ieGu42u/Qsa4TFktmaKEwM6MQH0pOWnaB3htzh0JRtx84+Mebc0cbZYN5bC+6WTZ4+77xrL9Pn5m7CV6VIkV7A==
   dependencies:
-    abbrev "^2.0.0"
+    abbrev "^3.0.0"
 
 normalize-package-data@^6.0.0:
   version "6.0.2"
@@ -3092,9 +3087,9 @@ spdx-expression-parse@^4.0.0:
     spdx-license-ids "^3.0.0"
 
 spdx-license-ids@^3.0.0:
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.20.tgz#e44ed19ed318dd1e5888f93325cee800f0f51b89"
-  integrity sha512-jg25NiDV/1fLtSgEgyvVyDunvaNHbuwF9lfNV17gSmPFAlYzdfNBlLtLzXTevwkPj7DhGbmN9VnmJIgLnhvaBw==
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.21.tgz#6d6e980c9df2b6fc905343a3b2d702a6239536c3"
+  integrity sha512-Bvg/8F5XephndSK3JffaRqdT+gyhfqIPwDHpX80tJrF8QQRYMo8sNMeaZ2Dp5+jhwKnUmIOyFFQfHRkjJm5nXg==
 
 split2@~1.0.0:
   version "1.0.0"
@@ -3358,9 +3353,9 @@ type-fest@^2.12.2:
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
 type-fest@^4.6.0, type-fest@^4.7.1:
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.32.0.tgz#55bacdd6f2cf1392b7e9cde894e9b1d726807e97"
-  integrity sha512-rfgpoi08xagF3JSdtJlCwMq9DGNDE0IMh3Mkpc1wUypg9vPi786AiqeBBKcqvIkq42azsBM85N490fyZjeUftw==
+  version "4.33.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.33.0.tgz#2da0c135b9afa76cf8b18ecfd4f260ecd414a432"
+  integrity sha512-s6zVrxuyKbbAsSAD5ZPTB77q4YIdRctkTbJ2/Dqlinwz+8ooH2gd+YA7VA6Pa93KML9GockVvoxjZ2vHP+mu8g==
 
 uglify-js@^3.1.4:
   version "3.19.3"
