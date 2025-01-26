@@ -1,3 +1,18 @@
+## [4.3.3](https://github.com/zeshuaro/google_api_headers/compare/v4.3.2...v4.3.3) (2025-01-26)
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to ^8.1.3 ([#578](https://github.com/zeshuaro/google_api_headers/issues/578)) ([1857add](https://github.com/zeshuaro/google_api_headers/commit/1857add1c291986ec96bf2628d9fce0d118805b7))
+* **sdk:** update dependency flutter to v3.27.3 ([#580](https://github.com/zeshuaro/google_api_headers/issues/580)) ([02e2732](https://github.com/zeshuaro/google_api_headers/commit/02e273241c26976cc9d21e03f9428c5ab90cbab9))
+
+### Miscellaneous Chores
+
+* **node:** update node.js to v22.13.1 ([#579](https://github.com/zeshuaro/google_api_headers/issues/579)) ([52b3b53](https://github.com/zeshuaro/google_api_headers/commit/52b3b53cc592a1d2de5df5c73c0647c4b4905370))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to e40c850 ([#581](https://github.com/zeshuaro/google_api_headers/issues/581)) ([3be9396](https://github.com/zeshuaro/google_api_headers/commit/3be9396a754906ff2cb55550d30b643d1eab8ae7))
+
 ## [4.3.2](https://github.com/zeshuaro/google_api_headers/compare/v4.3.1...v4.3.2) (2025-01-19)
 
 ### Bug Fixes
