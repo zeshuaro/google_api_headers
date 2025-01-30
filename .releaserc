@@ -32,7 +32,8 @@
     [
       "semantic-release-pub",
       {
-        "cli": "flutter"
+        "cli": "flutter",
+        "useGithubOidc": true
       }
     ],
     [
