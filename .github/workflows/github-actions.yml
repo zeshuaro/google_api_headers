@@ -16,10 +16,11 @@ concurrency:
 jobs:
   flutter-package:
     uses: zeshuaro/github-actions-workflows/.github/workflows/flutter-package.yml@dbd5e865e84a7e4ff598fff4bbdd4bc6264efa56
+    permissions:
+      id-token: write
     with:
       release: ${{ (github.ref == 'refs/heads/main') && (contains(fromJSON('["workflow_dispatch", "schedule"]'), github.event_name)) }}
     secrets:
       GH_APP_ID: ${{ secrets.GH_APP_ID }}
       GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
-      GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
