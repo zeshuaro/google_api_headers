@@ -1,3 +1,23 @@
+## [4.3.4](https://github.com/zeshuaro/google_api_headers/compare/v4.3.3...v4.3.4) (2025-01-30)
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to ^8.1.4 ([#588](https://github.com/zeshuaro/google_api_headers/issues/588)) ([e058bdb](https://github.com/zeshuaro/google_api_headers/commit/e058bdb5ca87bb2cb67eddac437a32068586948c))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#583](https://github.com/zeshuaro/google_api_headers/issues/583)) ([107e89f](https://github.com/zeshuaro/google_api_headers/commit/107e89fa24ae335a4e11c88c098d57f3ea4acaf2))
+* **deps:** update dependency semantic-release-pub to v0.10.1 ([#591](https://github.com/zeshuaro/google_api_headers/issues/591)) ([3dc7f86](https://github.com/zeshuaro/google_api_headers/commit/3dc7f866ebfc7d9168f445a29d5e695b893d87dc))
+* **deps:** update dependency semantic-release-pub to v0.9.6 ([#584](https://github.com/zeshuaro/google_api_headers/issues/584)) ([da37099](https://github.com/zeshuaro/google_api_headers/commit/da3709999820eac2ca7ab7ad2d267c848c4bac34))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 10565a3 ([#582](https://github.com/zeshuaro/google_api_headers/issues/582)) ([d7e8022](https://github.com/zeshuaro/google_api_headers/commit/d7e802286f082e48f8dca76fc3919d59b317becc))
+* **deps:** update zeshuaro/github-actions-workflows digest to dbd5e86 ([#589](https://github.com/zeshuaro/google_api_headers/issues/589)) ([f83b908](https://github.com/zeshuaro/google_api_headers/commit/f83b908e2fb489775c95ca4a518bed187c8add7c))
+* **github-actions:** add `id-token` permission for package release ([#590](https://github.com/zeshuaro/google_api_headers/issues/590)) ([a35f182](https://github.com/zeshuaro/google_api_headers/commit/a35f1825f56ae1f2c312348baa54851eb863ee92))
+* **semantic-release:** revert to use google service account to publish ([#592](https://github.com/zeshuaro/google_api_headers/issues/592)) ([cba3c25](https://github.com/zeshuaro/google_api_headers/commit/cba3c25a27928bd61431ffa9451d76a569885e1f))
+* **semantic-release:** use github oidc token to authenticate ([#585](https://github.com/zeshuaro/google_api_headers/issues/585)) ([39132bc](https://github.com/zeshuaro/google_api_headers/commit/39132bc60c096fbdbe4e81f845a5c7043897e70b))
+
 ## [4.3.3](https://github.com/zeshuaro/google_api_headers/compare/v4.3.2...v4.3.3) (2025-01-26)
 
 ### Bug Fixes
