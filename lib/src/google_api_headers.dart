@@ -17,7 +17,7 @@ class GoogleApiHeaders {
   /// Constructor with an optional parameter of [MyPlatform].
   /// Default to [MyPlatformImp] if the parameter is not provided.
   const GoogleApiHeaders([MyPlatform? platform])
-      : platform = platform ?? const MyPlatformImp();
+    : platform = platform ?? const MyPlatformImp();
 
   static Map<String, String> _headers = {};
   final MethodChannel _channel = const MethodChannel('google_api_headers');
@@ -33,9 +33,7 @@ class GoogleApiHeaders {
     if (_headers.isEmpty && !kIsWeb && !platform.isDesktop) {
       final packageInfo = await PackageInfo.fromPlatform();
       if (platform.isIos) {
-        _headers = {
-          "X-Ios-Bundle-Identifier": packageInfo.packageName,
-        };
+        _headers = {"X-Ios-Bundle-Identifier": packageInfo.packageName};
       } else if (platform.isAndroid) {
         try {
           final sha1 = await _channel.invokeMethod(

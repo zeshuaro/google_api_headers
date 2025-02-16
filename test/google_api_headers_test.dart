@@ -36,19 +36,16 @@ void main() {
 
   group('testGetGoogleApiHeaders', () {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
-        .setMockMethodCallHandler(
-      googleApiHeadersChannel,
-      (message) async {
-        log.add(message);
-        switch (message.method) {
-          case 'getSigningCertSha1':
-            return sha1;
-          default:
-            assert(false);
-            return null;
-        }
-      },
-    );
+        .setMockMethodCallHandler(googleApiHeadersChannel, (message) async {
+          log.add(message);
+          switch (message.method) {
+            case 'getSigningCertSha1':
+              return sha1;
+            default:
+              assert(false);
+              return null;
+          }
+        });
 
     test('testGetHeadersOniOS', () async {
       when(() => platform.isIos).thenReturn(true);
@@ -84,19 +81,16 @@ void main() {
 
   test('testGetShaFailed', () async {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
-        .setMockMethodCallHandler(
-      googleApiHeadersChannel,
-      (message) async {
-        log.add(message);
-        switch (message.method) {
-          case 'getSigningCertSha1':
-            throw PlatformException(code: 'Not implemented');
-          default:
-            assert(false);
-            return null;
-        }
-      },
-    );
+        .setMockMethodCallHandler(googleApiHeadersChannel, (message) async {
+          log.add(message);
+          switch (message.method) {
+            case 'getSigningCertSha1':
+              throw PlatformException(code: 'Not implemented');
+            default:
+              assert(false);
+              return null;
+          }
+        });
 
     when(() => platform.isAndroid).thenReturn(true);
     final headers = await GoogleApiHeaders(platform).getHeaders();
