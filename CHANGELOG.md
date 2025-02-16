@@ -1,3 +1,24 @@
+## [4.4.0](https://github.com/zeshuaro/google_api_headers/compare/v4.3.5...v4.4.0) (2025-02-16)
+
+### Features
+
+* **sdk:** update dependency flutter to v3.29.0 ([#600](https://github.com/zeshuaro/google_api_headers/issues/600)) ([13c0939](https://github.com/zeshuaro/google_api_headers/commit/13c0939a4a787b8fd4ede7242279483e173fd555))
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to ^8.2.0 ([#596](https://github.com/zeshuaro/google_api_headers/issues/596)) ([63165df](https://github.com/zeshuaro/google_api_headers/commit/63165dfc232e8519192f5a0551ce2ed76939ddf9))
+* **deps:** update dependency package_info_plus to ^8.2.1 ([#603](https://github.com/zeshuaro/google_api_headers/issues/603)) ([22634a2](https://github.com/zeshuaro/google_api_headers/commit/22634a2e47f383095bfbb7c96ff0cf0331e89c44))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v24.2.2 ([#599](https://github.com/zeshuaro/google_api_headers/issues/599)) ([dcd2b28](https://github.com/zeshuaro/google_api_headers/commit/dcd2b28598b0d4f621e78ad4dc6b852442d27b1b))
+* **node:** update node.js to v22.14.0 ([#598](https://github.com/zeshuaro/google_api_headers/issues/598)) ([d8f8dba](https://github.com/zeshuaro/google_api_headers/commit/d8f8dbad1da5bd00f69b1b1b6d5d87905b6e9314))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to aec288d ([#602](https://github.com/zeshuaro/google_api_headers/issues/602)) ([73811b5](https://github.com/zeshuaro/google_api_headers/commit/73811b52c35ac92295a65934e211a6827d91fbca))
+* **deps:** update zeshuaro/github-actions-workflows digest to b2dbc93 ([#604](https://github.com/zeshuaro/google_api_headers/issues/604)) ([678dc49](https://github.com/zeshuaro/google_api_headers/commit/678dc4956aaf7d122a995615c10bad52226f23c8))
+
 ## [4.3.5](https://github.com/zeshuaro/google_api_headers/compare/v4.3.4...v4.3.5) (2025-02-09)
 
 ### Bug Fixes
