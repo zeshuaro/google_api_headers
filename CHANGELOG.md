@@ -1,3 +1,22 @@
+## [4.4.1](https://github.com/zeshuaro/google_api_headers/compare/v4.4.0...v4.4.1) (2025-02-23)
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.7.0 <4.0.0 ([#601](https://github.com/zeshuaro/google_api_headers/issues/601)) ([02be4b7](https://github.com/zeshuaro/google_api_headers/commit/02be4b7c6060b4000f96d081fd796abb6b14029a))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency build_runner to v2.4.15 ([#606](https://github.com/zeshuaro/google_api_headers/issues/606)) ([c122a07](https://github.com/zeshuaro/google_api_headers/commit/c122a07687aea736be06d5d9d8652d41b696ff1b))
+* **deps:** update dependency semantic-release to v24.2.3 ([#607](https://github.com/zeshuaro/google_api_headers/issues/607)) ([b6b9436](https://github.com/zeshuaro/google_api_headers/commit/b6b9436cbddcd99a5e147926d9ea9c162c582398))
+* **deps:** update dependency semantic-release-pub to v0.10.2 ([#608](https://github.com/zeshuaro/google_api_headers/issues/608)) ([178e9ae](https://github.com/zeshuaro/google_api_headers/commit/178e9ae601fbec0a0988ee39289b056396f74a27))
+* **example/deps:** update dependency dart to >=3.7.0 <4.0.0 ([#597](https://github.com/zeshuaro/google_api_headers/issues/597)) ([569cca2](https://github.com/zeshuaro/google_api_headers/commit/569cca2199a0a4c48e475a3c38520401a3135af9))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 9d9d6ec ([#605](https://github.com/zeshuaro/google_api_headers/issues/605)) ([2a49f15](https://github.com/zeshuaro/google_api_headers/commit/2a49f150d6e1e0ab74a8c0116f5363b743e2e2bc))
+* **deps:** update zeshuaro/github-actions-workflows digest to d5eb020 ([#610](https://github.com/zeshuaro/google_api_headers/issues/610)) ([11718f9](https://github.com/zeshuaro/google_api_headers/commit/11718f9b5f36e466a691ca0dc4f08e19f0264afc))
+* **deps:** update zeshuaro/github-actions-workflows digest to f3ddb04 ([#609](https://github.com/zeshuaro/google_api_headers/issues/609)) ([09a8f5c](https://github.com/zeshuaro/google_api_headers/commit/09a8f5ce2e6d0ac6952718466159f8ad764818d6))
+
 ## [4.4.0](https://github.com/zeshuaro/google_api_headers/compare/v4.3.5...v4.4.0) (2025-02-16)
 
 ### Features
