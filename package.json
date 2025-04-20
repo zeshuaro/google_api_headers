@@ -1,6 +1,6 @@
 {
   "name": "google_api_headers",
-  "version": "4.4.3",
+  "version": "4.4.4",
   "description": "A Flutter plugin for getting the headers required to call Google APIs with an app restricted API key",
   "main": "index.js",
   "repository": "https://github.com/zeshuaro/google_api_headers.git",
