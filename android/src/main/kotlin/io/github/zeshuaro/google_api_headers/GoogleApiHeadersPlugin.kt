@@ -35,18 +35,31 @@ class GoogleApiHeadersPlugin : MethodCallHandler, FlutterPlugin {
     @UiThread
     override fun onMethodCall(call: MethodCall, result: Result) {
         if (call.method == "getSigningCertSha1") {
+
+            // 1. Declare and retrieve 'args' *before* the try block
+            val args: String? = try {
+                call.arguments<String>()
+            } catch (e: Exception) {
+                result.error("ARGUMENT_ERROR", "Failed to retrieve package name argument: ${e.message}", null)
+                return // Exit if arguments cannot be retrieved
+            }
+
+            // 2. Validate arguments (optional but recommended)
+            if (args.isNullOrEmpty()) {
+                 result.error("ARGUMENT_ERROR", "Package name argument is missing or empty", null)
+                 return // Exit if arguments are invalid
+            }
+
+            // 3. Now start the main try block - 'args' is accessible throughout
             try {
-                // Consider safer handling than !! if context could theoretically be null here
+                // Consider safer context access -> context?.packageManager ?: throw IllegalStateException("Context is null")
                 val packageManager = context!!.packageManager
-                // Consider safer handling for arguments if they might be missing
-                val args = call.arguments<String>()!!
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-                    // Use ?. safe call on signingInfo and apkContentsSigners
                     packageManager.getPackageInfo(
-                        args,
+                        args, // Now accessible
                         PackageManager.GET_SIGNING_CERTIFICATES
-                    ).signingInfo?.apkContentsSigners?.forEach { signature -> // <-- FIX 1: Added ?. twice
+                    ).signingInfo?.apkContentsSigners?.forEach { signature ->
                         parseSignature(
                             signature,
                             result
@@ -54,32 +67,28 @@ class GoogleApiHeadersPlugin : MethodCallHandler, FlutterPlugin {
                     }
                 } else {
                     @Suppress("DEPRECATION")
-                    // Use ?. safe call on signatures
                     packageManager.getPackageInfo(
-                        args,
+                        args, // Now accessible
                         PackageManager.GET_SIGNATURES
-                    ).signatures?.forEach { signature -> // <-- FIX 2: Added ?. here
+                    ).signatures?.forEach { signature ->
                         parseSignature(signature, result)
                     }
                 }
-                // Note: If getPackageInfo finds no signers/signatures, this might succeed
-                // without calling result.success(). Depending on desired behavior,
-                // you might want to add a check here to call result.error() if no
-                // signature was processed. This code currently relies on parseSignature
-                // calling result.success().
+                // Note: Add check here if result.success() was potentially not called
 
             } catch (e: PackageManager.NameNotFoundException) {
-                // Be more specific catching expected exceptions
-                result.error("PACKAGE_NOT_FOUND", "Package '$args' not found.", null)
+                 // 'args' is now in scope and accessible here
+                 result.error("PACKAGE_NOT_FOUND", "Package '$args' not found.", null)
             } catch (e: Exception) {
-                // Catch other potential exceptions
-                result.error("ERROR", e.toString(), null)
+                 // General error - provide more specific message if possible
+                 result.error("ERROR", "An unexpected error occurred: ${e.message}", null)
             }
         } else {
             result.notImplemented()
         }
     }
 
+ 
     private fun parseSignature(signature: Signature, result: Result) {
         try {
             val md: MessageDigest = MessageDigest.getInstance("SHA1")
