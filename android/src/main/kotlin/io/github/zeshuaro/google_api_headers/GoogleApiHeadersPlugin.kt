@@ -38,21 +38,37 @@ class GoogleApiHeadersPlugin : MethodCallHandler, FlutterPlugin {
                 val packageManager = context!!.packageManager
                 val args = call.arguments<String>()!!
                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P) {
-                    packageManager.getPackageInfo(
+                    val packageInfo = packageManager.getPackageInfo(
                         args,
                         PackageManager.GET_SIGNING_CERTIFICATES
-                    ).signingInfo.apkContentsSigners.forEach { signature ->
-                        parseSignature(
-                            signature,
-                            result
-                        )
+                    )
+                    val signingInfo = packageInfo.signingInfo
+                    if (signingInfo != null) {
+                        val signers = signingInfo.apkContentsSigners
+                        if (signers != null) {
+                            signers.forEach { signature ->
+                                parseSignature(signature, result)
+                            }
+                        } else {
+                            result.error("ERROR", "No signing certificates found", null)
+                        }
+                    } else {
+                        result.error("ERROR", "Unable to get signing info", null)
                     }
                 } else {
                     @Suppress("DEPRECATION")
-                    packageManager.getPackageInfo(
+                    val packageInfo = packageManager.getPackageInfo(
                         args,
                         PackageManager.GET_SIGNATURES
-                    ).signatures.forEach { signature -> parseSignature(signature, result) }
+                    )
+                    val signatures = packageInfo.signatures
+                    if (signatures != null) {
+                        signatures.forEach { signature -> 
+                            parseSignature(signature, result)
+                        }
+                    } else {
+                        result.error("ERROR", "No signatures found", null)
+                    }
                 }
 
             } catch (e: Exception) {
