@@ -1,3 +1,20 @@
+## [4.4.5](https://github.com/zeshuaro/google_api_headers/compare/v4.4.4...v4.4.5) (2025-04-30)
+
+### Bug Fixes
+
+* resolve Android null-safety and scope compilation issues ([#643](https://github.com/zeshuaro/google_api_headers/issues/643)) ([41289f9](https://github.com/zeshuaro/google_api_headers/commit/41289f974c69da0553c84edc5c1246f50bcd18c6))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#641](https://github.com/zeshuaro/google_api_headers/issues/641)) ([2a96d62](https://github.com/zeshuaro/google_api_headers/commit/2a96d6248499ed1c68800c9c2e0f21f30bc16736))
+* **deps:** lock file maintenance ([#644](https://github.com/zeshuaro/google_api_headers/issues/644)) ([79980d7](https://github.com/zeshuaro/google_api_headers/commit/79980d780eb6c43601e6e8cdbf66b2f377acc42d))
+* **deps:** update dependency semantic-release-pub to v0.10.4 ([#647](https://github.com/zeshuaro/google_api_headers/issues/647)) ([65f38c5](https://github.com/zeshuaro/google_api_headers/commit/65f38c584e85dff089a9d07487e0ed83c9649055))
+* **node:** update node.js to v22.15.0 ([#642](https://github.com/zeshuaro/google_api_headers/issues/642)) ([0e874df](https://github.com/zeshuaro/google_api_headers/commit/0e874df294aa433f4759aa7397b9bf3e83b17a57))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 9edb5c8 ([#646](https://github.com/zeshuaro/google_api_headers/issues/646)) ([6c31dd9](https://github.com/zeshuaro/google_api_headers/commit/6c31dd9b40436060d79f3e1b5ec3861ed468669c))
+
 ## [4.4.4](https://github.com/zeshuaro/google_api_headers/compare/v4.4.3...v4.4.4) (2025-04-20)
 
 ### Bug Fixes
