@@ -1,3 +1,19 @@
+## [4.5.3](https://github.com/zeshuaro/google_api_headers/compare/v4.5.2...v4.5.3) (2025-06-15)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.32.3 ([#676](https://github.com/zeshuaro/google_api_headers/issues/676)) ([2000401](https://github.com/zeshuaro/google_api_headers/commit/200040132093d0e485c1b36be3821df478c0e15c))
+* **sdk:** update dependency flutter to v3.32.4 ([#677](https://github.com/zeshuaro/google_api_headers/issues/677)) ([5e960aa](https://github.com/zeshuaro/google_api_headers/commit/5e960aad13ea8fc79cc3b1c51d7e7af9d1039225))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#673](https://github.com/zeshuaro/google_api_headers/issues/673)) ([c81fc7e](https://github.com/zeshuaro/google_api_headers/commit/c81fc7e40eda17f1b366c0d3e2f3fc464676590c))
+* **deps:** update dependency semantic-release-pub to v0.10.9 ([#675](https://github.com/zeshuaro/google_api_headers/issues/675)) ([1702530](https://github.com/zeshuaro/google_api_headers/commit/170253041a13619bf0a849ffe9e51e98f09e2f76))
+
+### Continuous Integration
+
+* **deps:** update subosito/flutter-action action to v2.20.0 ([#674](https://github.com/zeshuaro/google_api_headers/issues/674)) ([efc2fe7](https://github.com/zeshuaro/google_api_headers/commit/efc2fe70578baa25539adf3190c2ebfbfd9a673c))
+
 ## [4.5.2](https://github.com/zeshuaro/google_api_headers/compare/v4.5.1...v4.5.2) (2025-06-08)
 
 ### Bug Fixes
