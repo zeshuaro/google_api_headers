@@ -1,3 +1,25 @@
+## [4.5.4](https://github.com/zeshuaro/google_api_headers/compare/v4.5.3...v4.5.4) (2025-06-29)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.32.5 ([#686](https://github.com/zeshuaro/google_api_headers/issues/686)) ([e130c72](https://github.com/zeshuaro/google_api_headers/commit/e130c7204c3bca3861f0118740a55f391be3fdfe))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#678](https://github.com/zeshuaro/google_api_headers/issues/678)) ([e556c5c](https://github.com/zeshuaro/google_api_headers/commit/e556c5cebbb4fc6a3c3ace0806e50c998c7859e6))
+* **deps:** lock file maintenance ([#680](https://github.com/zeshuaro/google_api_headers/issues/680)) ([ca523b3](https://github.com/zeshuaro/google_api_headers/commit/ca523b3bb3a40f11beabc6f1978e4ef45fbca62c))
+* **deps:** update dependency build_runner to v2.5.0 ([#681](https://github.com/zeshuaro/google_api_headers/issues/681)) ([ff0b530](https://github.com/zeshuaro/google_api_headers/commit/ff0b5306e80fb06cf797e3afbd46d731314dcff3))
+* **deps:** update dependency build_runner to v2.5.1 ([#682](https://github.com/zeshuaro/google_api_headers/issues/682)) ([0251838](https://github.com/zeshuaro/google_api_headers/commit/025183871f7fcd42f9098835c3cdc8506c41b8ed))
+* **deps:** update dependency build_runner to v2.5.2 ([#683](https://github.com/zeshuaro/google_api_headers/issues/683)) ([d22fe1c](https://github.com/zeshuaro/google_api_headers/commit/d22fe1c52051ad8c0dfc3617e39ebe14061d411e))
+* **deps:** update dependency build_runner to v2.5.3 ([#685](https://github.com/zeshuaro/google_api_headers/issues/685)) ([10f468c](https://github.com/zeshuaro/google_api_headers/commit/10f468c4bd77de3c7c3b0aa87b01d39d06ce6236))
+* **deps:** update dependency semantic-release-pub to v0.10.10 ([#679](https://github.com/zeshuaro/google_api_headers/issues/679)) ([ce636de](https://github.com/zeshuaro/google_api_headers/commit/ce636dee452a9241bebc341100d94abc1cfa6b2e))
+* **deps:** update dependency semantic-release-pub to v0.10.11 ([#684](https://github.com/zeshuaro/google_api_headers/issues/684)) ([be46b78](https://github.com/zeshuaro/google_api_headers/commit/be46b78852d06c89a1c4609d93113386de348763))
+* **node:** update node.js to v22.17.0 ([#687](https://github.com/zeshuaro/google_api_headers/issues/687)) ([a1d5aa5](https://github.com/zeshuaro/google_api_headers/commit/a1d5aa572d7364bde8a6c2e5dcf1dd21423b43d3))
+
+### Continuous Integration
+
+* **deps:** update subosito/flutter-action action to v2.21.0 ([#688](https://github.com/zeshuaro/google_api_headers/issues/688)) ([961aa5f](https://github.com/zeshuaro/google_api_headers/commit/961aa5fd8f7223693292b027e0092752589d83e5))
+
 ## [4.5.3](https://github.com/zeshuaro/google_api_headers/compare/v4.5.2...v4.5.3) (2025-06-15)
 
 ### Bug Fixes
