@@ -1,3 +1,22 @@
+## [4.5.5](https://github.com/zeshuaro/google_api_headers/compare/v4.5.4...v4.5.5) (2025-07-13)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.32.6 ([#696](https://github.com/zeshuaro/google_api_headers/issues/696)) ([e640ee9](https://github.com/zeshuaro/google_api_headers/commit/e640ee936cddae893a1f3d126b8d5523110417f9))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#689](https://github.com/zeshuaro/google_api_headers/issues/689)) ([1892ded](https://github.com/zeshuaro/google_api_headers/commit/1892ded47192c4d8b3a186053442f968cd9806d5))
+* **deps:** lock file maintenance ([#694](https://github.com/zeshuaro/google_api_headers/issues/694)) ([1d78153](https://github.com/zeshuaro/google_api_headers/commit/1d781534c7c63b6af7bfbd81d48e17c6d5002c4b))
+* **deps:** update dependency build_runner to v2.5.4 ([#690](https://github.com/zeshuaro/google_api_headers/issues/690)) ([00d5487](https://github.com/zeshuaro/google_api_headers/commit/00d548763bd48a828124ed02ed4324762f64e5e2))
+* **deps:** update dependency semantic-release to v24.2.6 ([#693](https://github.com/zeshuaro/google_api_headers/issues/693)) ([1504b4d](https://github.com/zeshuaro/google_api_headers/commit/1504b4d51c4a7355d054a040e3657dcf8b8f3ca5))
+* **deps:** update dependency semantic-release-pub to v0.10.12 ([#692](https://github.com/zeshuaro/google_api_headers/issues/692)) ([649f263](https://github.com/zeshuaro/google_api_headers/commit/649f263b7f9fe81319d4ca28dc6902b5dd3c0f34))
+* **deps:** update dependency semantic-release-pub to v0.10.13 ([#695](https://github.com/zeshuaro/google_api_headers/issues/695)) ([e0d5922](https://github.com/zeshuaro/google_api_headers/commit/e0d592276d6a40307c23c982157f1a332c5cfda2))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to eb4f75d ([#691](https://github.com/zeshuaro/google_api_headers/issues/691)) ([9a31e44](https://github.com/zeshuaro/google_api_headers/commit/9a31e44e858a7893ff0e184737b3af1cea6cfd98))
+
 ## [4.5.4](https://github.com/zeshuaro/google_api_headers/compare/v4.5.3...v4.5.4) (2025-06-29)
 
 ### Bug Fixes
