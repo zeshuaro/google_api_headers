@@ -1,3 +1,17 @@
+## [4.5.6](https://github.com/zeshuaro/google_api_headers/compare/v4.5.5...v4.5.6) (2025-07-20)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.32.7 ([#704](https://github.com/zeshuaro/google_api_headers/issues/704)) ([975a93b](https://github.com/zeshuaro/google_api_headers/commit/975a93b6721d0a88cb5bf3e2c0ff5f4f72668b8d))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#697](https://github.com/zeshuaro/google_api_headers/issues/697)) ([1e81e39](https://github.com/zeshuaro/google_api_headers/commit/1e81e391817ad808411607a38370df99b922f840))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#698](https://github.com/zeshuaro/google_api_headers/issues/698)) ([86ed5fb](https://github.com/zeshuaro/google_api_headers/commit/86ed5fba625949a9ff0f0aa5f493cc36036ce9ca))
+* **deps:** update dependency semantic-release to v24.2.7 ([#699](https://github.com/zeshuaro/google_api_headers/issues/699)) ([a1ae619](https://github.com/zeshuaro/google_api_headers/commit/a1ae619ce92151d87b7b0635f034c3635287b943))
+* **deps:** update dependency semantic-release-pub to v0.10.14 ([#700](https://github.com/zeshuaro/google_api_headers/issues/700)) ([7f2d638](https://github.com/zeshuaro/google_api_headers/commit/7f2d638ec42260f1b37665855451423ea3200928))
+* **node:** update node.js to v22.17.1 ([#701](https://github.com/zeshuaro/google_api_headers/issues/701)) ([82f3130](https://github.com/zeshuaro/google_api_headers/commit/82f3130a404c86e302d4fc6631ffbb23532a6d11))
+
 ## [4.5.5](https://github.com/zeshuaro/google_api_headers/compare/v4.5.4...v4.5.5) (2025-07-13)
 
 ### Bug Fixes
