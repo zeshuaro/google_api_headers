@@ -1,3 +1,14 @@
+## [4.5.7](https://github.com/zeshuaro/google_api_headers/compare/v4.5.6...v4.5.7) (2025-07-27)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.32.8 ([#707](https://github.com/zeshuaro/google_api_headers/issues/707)) ([cba4c65](https://github.com/zeshuaro/google_api_headers/commit/cba4c656760c457422127f7c30e1b02e0efabe11))
+
+### Miscellaneous Chores
+
+* **deps:** update dependency build_runner to v2.6.0 ([#706](https://github.com/zeshuaro/google_api_headers/issues/706)) ([abcb43b](https://github.com/zeshuaro/google_api_headers/commit/abcb43b34c1aecd36c49cfb248324d68e4b85486))
+* **deps:** update dependency semantic-release-pub to v0.10.15 ([#705](https://github.com/zeshuaro/google_api_headers/issues/705)) ([5e65339](https://github.com/zeshuaro/google_api_headers/commit/5e6533972b083733975aebc7fcad2a6c2dbca386))
+
 ## [4.5.6](https://github.com/zeshuaro/google_api_headers/compare/v4.5.5...v4.5.6) (2025-07-20)
 
 ### Bug Fixes
