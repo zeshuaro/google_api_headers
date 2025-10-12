@@ -1,3 +1,29 @@
+## [5.0.0](https://github.com/zeshuaro/google_api_headers/compare/v4.6.2...v5.0.0) (2025-10-12)
+
+### ⚠ BREAKING CHANGES
+
+* update android compile sdk to 36, jvm target to 11, android gradle plugin to 8.9.1, gradle wrapper to 9.0 and kotlin to 2.1.0 (#762)
+
+### Features
+
+* update android compile sdk to 36, jvm target to 11, android gradle plugin to 8.9.1, gradle wrapper to 9.0 and kotlin to 2.1.0 ([#762](https://github.com/zeshuaro/google_api_headers/issues/762)) ([781371d](https://github.com/zeshuaro/google_api_headers/commit/781371da3ce192d321d732065ae81b29dd517ab8))
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to v9 ([#744](https://github.com/zeshuaro/google_api_headers/issues/744)) ([8e914e7](https://github.com/zeshuaro/google_api_headers/commit/8e914e7eeb9244f25f50815ad3bef7b487df2255))
+* **sdk:** update dependency flutter to v3.35.6 ([#760](https://github.com/zeshuaro/google_api_headers/issues/760)) ([18f2d39](https://github.com/zeshuaro/google_api_headers/commit/18f2d398f08064a2b2b80e5dae99cb782e25cb39))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#755](https://github.com/zeshuaro/google_api_headers/issues/755)) ([b52b156](https://github.com/zeshuaro/google_api_headers/commit/b52b1562c02ecd459f1b4b00d2f754df985cfc3c))
+* **deps:** update dependency build_runner to v2.9.0 ([#759](https://github.com/zeshuaro/google_api_headers/issues/759)) ([98f8212](https://github.com/zeshuaro/google_api_headers/commit/98f8212ef1d00ee5f4b79c3a9276360bbf899f4a))
+* **deps:** update dependency semantic-release-pub to v0.10.23 ([#758](https://github.com/zeshuaro/google_api_headers/issues/758)) ([b27e967](https://github.com/zeshuaro/google_api_headers/commit/b27e967875061c3ca3ccace5d1c4c97a4514944d))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 55dc268 ([#757](https://github.com/zeshuaro/google_api_headers/issues/757)) ([b5ae1cb](https://github.com/zeshuaro/google_api_headers/commit/b5ae1cb1bc275e2cec213ee7ce40d3a5f26a8ba4))
+* **deps:** update zeshuaro/github-actions-workflows digest to b9daba8 ([#756](https://github.com/zeshuaro/google_api_headers/issues/756)) ([6c40abe](https://github.com/zeshuaro/google_api_headers/commit/6c40abed79ab15c7a8dc8b85c17d2895e5608621))
+
 ## [4.6.2](https://github.com/zeshuaro/google_api_headers/compare/v4.6.1...v4.6.2) (2025-10-05)
 
 ### Bug Fixes
