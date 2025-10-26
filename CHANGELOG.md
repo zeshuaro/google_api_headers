@@ -1,3 +1,23 @@
+## [5.0.1](https://github.com/zeshuaro/google_api_headers/compare/v5.0.0...v5.0.1) (2025-10-26)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.35.7 ([#771](https://github.com/zeshuaro/google_api_headers/issues/771)) ([4bbf0e5](https://github.com/zeshuaro/google_api_headers/commit/4bbf0e5d1fd309076e1b71d47099c68644c1b2a2))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#763](https://github.com/zeshuaro/google_api_headers/issues/763)) ([f15c085](https://github.com/zeshuaro/google_api_headers/commit/f15c085c2ca1f8fb22fb6db5769013f5f6b37c8c))
+* **deps:** lock file maintenance ([#767](https://github.com/zeshuaro/google_api_headers/issues/767)) ([f95afe8](https://github.com/zeshuaro/google_api_headers/commit/f95afe8f0bd96ca3b0a842bb0239b620d750a924))
+* **deps:** update dependency semantic-release to v25 ([#765](https://github.com/zeshuaro/google_api_headers/issues/765)) ([b3b0125](https://github.com/zeshuaro/google_api_headers/commit/b3b01252afa12bfb2ab20e1cbb0986264d130067))
+* **deps:** update dependency semantic-release to v25.0.1 ([#769](https://github.com/zeshuaro/google_api_headers/issues/769)) ([a39e8f6](https://github.com/zeshuaro/google_api_headers/commit/a39e8f6a6b101ea47a0088659bc0afe93ec0f491))
+* **deps:** update dependency semantic-release-pub to v0.10.24 ([#764](https://github.com/zeshuaro/google_api_headers/issues/764)) ([9a406d4](https://github.com/zeshuaro/google_api_headers/commit/9a406d4b59b2a7c83336d645e2963ecbcc53647f))
+* **deps:** update dependency semantic-release-pub to v0.10.25 ([#770](https://github.com/zeshuaro/google_api_headers/issues/770)) ([61d7b3b](https://github.com/zeshuaro/google_api_headers/commit/61d7b3bce5f6d86df200219c99ca265feed9cd42))
+* **node:** update node.js to v22.21.0 ([#768](https://github.com/zeshuaro/google_api_headers/issues/768)) ([363d241](https://github.com/zeshuaro/google_api_headers/commit/363d24141b0a262f36cd3771d80712d997bb91e9))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 165f3ed ([#766](https://github.com/zeshuaro/google_api_headers/issues/766)) ([2d4ce96](https://github.com/zeshuaro/google_api_headers/commit/2d4ce963b9944eb05675f2827d30e7e43b17ff8e))
+
 ## [5.0.0](https://github.com/zeshuaro/google_api_headers/compare/v4.6.2...v5.0.0) (2025-10-12)
 
 ### ⚠ BREAKING CHANGES
