@@ -1,3 +1,15 @@
+## [5.1.2](https://github.com/zeshuaro/google_api_headers/compare/v5.1.1...v5.1.2) (2026-04-12)
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.9.4 <4.0.0 ([#868](https://github.com/zeshuaro/google_api_headers/issues/868)) ([b1efbcc](https://github.com/zeshuaro/google_api_headers/commit/b1efbcc6cf9f0df53a397d919d4b7105fff8119f))
+* **sdk:** update dependency flutter to v3.38.10 ([#869](https://github.com/zeshuaro/google_api_headers/issues/869)) ([c01e935](https://github.com/zeshuaro/google_api_headers/commit/c01e93543c11e6f2fd76b8d7f91c94de6202b920))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#867](https://github.com/zeshuaro/google_api_headers/issues/867)) ([4e3ae36](https://github.com/zeshuaro/google_api_headers/commit/4e3ae36bf31953cfaffd0ed0d98297849bf54073))
+* **example/deps:** update dependency dart to >=3.9.4 <4.0.0 ([#739](https://github.com/zeshuaro/google_api_headers/issues/739)) ([3e866a9](https://github.com/zeshuaro/google_api_headers/commit/3e866a96fd072679c01f5c63deaa071f0a3c21b7))
+
 ## [5.1.1](https://github.com/zeshuaro/google_api_headers/compare/v5.1.0...v5.1.1) (2026-04-12)
 
 ### Bug Fixes
