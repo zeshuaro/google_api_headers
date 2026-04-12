@@ -4,7 +4,7 @@ version: 5.1.2
 homepage: https://github.com/zeshuaro/google_api_headers
 
 environment:
-  sdk: ">=3.9.4 <4.0.0"
+  sdk: ">=3.11.4 <4.0.0"
   flutter: ">=3.41.6"
 
 dependencies:
