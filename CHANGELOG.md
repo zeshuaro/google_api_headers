@@ -1,3 +1,24 @@
+## [5.2.0](https://github.com/zeshuaro/google_api_headers/compare/v5.1.2...v5.2.0) (2026-04-19)
+
+### Features
+
+* **sdk:** update dependency flutter to v3.41.6 ([#870](https://github.com/zeshuaro/google_api_headers/issues/870)) ([d9b0c38](https://github.com/zeshuaro/google_api_headers/commit/d9b0c38a2bc203c85e35c11b043a045ef1a3bb85))
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.11.4 <4.0.0 ([#871](https://github.com/zeshuaro/google_api_headers/issues/871)) ([0f26410](https://github.com/zeshuaro/google_api_headers/commit/0f26410a495a0e6f3c55c4a5062e972af18dbbed))
+* **sdk:** update dependency dart to >=3.11.5 <4.0.0 ([#875](https://github.com/zeshuaro/google_api_headers/issues/875)) ([b6b3ab5](https://github.com/zeshuaro/google_api_headers/commit/b6b3ab571f669a938c042b392d3821d5bb24408a))
+* **sdk:** update dependency flutter to v3.41.7 ([#877](https://github.com/zeshuaro/google_api_headers/issues/877)) ([808af87](https://github.com/zeshuaro/google_api_headers/commit/808af87f5b9c4cdd73de3848964f8211aaa1554c))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#872](https://github.com/zeshuaro/google_api_headers/issues/872)) ([e3bd678](https://github.com/zeshuaro/google_api_headers/commit/e3bd678903801507d13ad5ab81466b33b1117b2d))
+* **deps:** update dependency mocktail to v1.0.5 ([#876](https://github.com/zeshuaro/google_api_headers/issues/876)) ([d04416f](https://github.com/zeshuaro/google_api_headers/commit/d04416f48fbba56287bafa8b9689599c9b2ab1fb))
+* **deps:** update dependency semantic-release-pub to v0.11.13 ([#873](https://github.com/zeshuaro/google_api_headers/issues/873)) ([a3c841a](https://github.com/zeshuaro/google_api_headers/commit/a3c841a0c0f81caa0e80a6bd0c47eddc00255c4f))
+* **example/deps:** update dependency dart to >=3.11.4 <4.0.0 ([#784](https://github.com/zeshuaro/google_api_headers/issues/784)) ([1c02ac1](https://github.com/zeshuaro/google_api_headers/commit/1c02ac1d0734b9c875037f3f62b1fc53f16a9ec9))
+* **example/deps:** update dependency dart to >=3.11.5 <4.0.0 ([#874](https://github.com/zeshuaro/google_api_headers/issues/874)) ([27e1b99](https://github.com/zeshuaro/google_api_headers/commit/27e1b99e4a62b207372c50c80e5579485ce2b5b1))
+* **node:** update node.js to v24.15.0 ([#878](https://github.com/zeshuaro/google_api_headers/issues/878)) ([3622ab2](https://github.com/zeshuaro/google_api_headers/commit/3622ab24df7ad2eeaf5c6f17b3c1cdeee9b4ac6a))
+
 ## [5.1.2](https://github.com/zeshuaro/google_api_headers/compare/v5.1.1...v5.1.2) (2026-04-12)
 
 ### Bug Fixes
