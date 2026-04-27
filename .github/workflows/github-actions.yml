@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   flutter-package:
-    uses: zeshuaro/github-actions-workflows/.github/workflows/flutter-package.yml@6b595f809ac29049e8af015cb95632f31ff5f370
+    uses: zeshuaro/github-actions-workflows/.github/workflows/flutter-package.yml@6b595f809ac29049e8af015cb95632f31ff5f370 # main
     permissions:
       id-token: write
     with:
