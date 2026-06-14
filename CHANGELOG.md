@@ -1,3 +1,20 @@
+## [5.3.2](https://github.com/zeshuaro/google_api_headers/compare/v5.3.1...v5.3.2) (2026-06-14)
+
+### Bug Fixes
+
+* **sdk:** update dart sdk minor patch version to >=3.12.2 <4.0.0 ([#923](https://github.com/zeshuaro/google_api_headers/issues/923)) ([00869ce](https://github.com/zeshuaro/google_api_headers/commit/00869ce69f604cd7251e1993e8ac9d25c579a02f))
+* **sdk:** update flutter sdk patch version to v3.44.2 ([#924](https://github.com/zeshuaro/google_api_headers/issues/924)) ([cb1e607](https://github.com/zeshuaro/google_api_headers/commit/cb1e607f05ca566687f3d83481b93fc37506c6c7))
+
+### Miscellaneous Chores
+
+* **deps:** update semantic-release monorepo to v25.0.4 ([#925](https://github.com/zeshuaro/google_api_headers/issues/925)) ([712e897](https://github.com/zeshuaro/google_api_headers/commit/712e897c548ed2fd4692ea4991a869a6a5423f5b))
+* **deps:** update semantic-release monorepo to v25.0.5 ([#926](https://github.com/zeshuaro/google_api_headers/issues/926)) ([af07e8c](https://github.com/zeshuaro/google_api_headers/commit/af07e8c901ad292b3883a9734855b2468f78888f))
+* **example/deps:** update dependency dart to >=3.12.2 <4.0.0 ([#922](https://github.com/zeshuaro/google_api_headers/issues/922)) ([8ac08e4](https://github.com/zeshuaro/google_api_headers/commit/8ac08e410ba9e0f3ea178556a8d45ed5dbe08e1e))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to de5b773 ([#921](https://github.com/zeshuaro/google_api_headers/issues/921)) ([42ca21f](https://github.com/zeshuaro/google_api_headers/commit/42ca21f2f6f47cf4ae708b13db4a865b88e59454))
+
 ## [5.3.1](https://github.com/zeshuaro/google_api_headers/compare/v5.3.0...v5.3.1) (2026-06-07)
 
 ### Bug Fixes
