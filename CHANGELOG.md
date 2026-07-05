@@ -1,3 +1,18 @@
+## [5.3.4](https://github.com/zeshuaro/google_api_headers/compare/v5.3.3...v5.3.4) (2026-07-05)
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to ^10.2.0 ([#940](https://github.com/zeshuaro/google_api_headers/issues/940)) ([21b353c](https://github.com/zeshuaro/google_api_headers/commit/21b353c0dcc0a93a4c330e448e87eabf193d1bcf))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#936](https://github.com/zeshuaro/google_api_headers/issues/936)) ([632e495](https://github.com/zeshuaro/google_api_headers/commit/632e495f1b0e97806b6e18d4b8b3ec5f61e258af))
+* **deps:** update dependency semantic-release-pub to v0.13.2 ([#939](https://github.com/zeshuaro/google_api_headers/issues/939)) ([3ed5863](https://github.com/zeshuaro/google_api_headers/commit/3ed58637862eb92e24c48d3454c32885e0fecfd6))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 41d124c ([#938](https://github.com/zeshuaro/google_api_headers/issues/938)) ([ac12b39](https://github.com/zeshuaro/google_api_headers/commit/ac12b39afb84ccf4f221068da67c7b68594f876c))
+
 ## [5.3.3](https://github.com/zeshuaro/google_api_headers/compare/v5.3.2...v5.3.3) (2026-06-28)
 
 ### Bug Fixes
