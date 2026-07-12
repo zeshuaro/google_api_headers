@@ -1,3 +1,14 @@
+## [5.3.5](https://github.com/zeshuaro/google_api_headers/compare/v5.3.4...v5.3.5) (2026-07-12)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.44.5 ([#942](https://github.com/zeshuaro/google_api_headers/issues/942)) ([053c8d2](https://github.com/zeshuaro/google_api_headers/commit/053c8d2e338abfc23ece63a1c581a19018474589))
+* **sdk:** update dependency flutter to v3.44.6 ([#943](https://github.com/zeshuaro/google_api_headers/issues/943)) ([76a86b0](https://github.com/zeshuaro/google_api_headers/commit/76a86b0dc41e2d1837618375d395f5b3fadf3056))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#941](https://github.com/zeshuaro/google_api_headers/issues/941)) ([278886a](https://github.com/zeshuaro/google_api_headers/commit/278886aa9675fd6f7edfa2fb720235dc0485fc85))
+
 ## [5.3.4](https://github.com/zeshuaro/google_api_headers/compare/v5.3.3...v5.3.4) (2026-07-05)
 
 ### Bug Fixes
