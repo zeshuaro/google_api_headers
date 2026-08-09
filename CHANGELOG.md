@@ -1,3 +1,5 @@
+## [5.3.7](https://github.com/zeshuaro/google_api_headers/compare/v5.3.6...v5.3.7) (2026-08-09)
+
 ## [5.3.6](https://github.com/zeshuaro/google_api_headers/compare/v5.3.5...v5.3.6) (2026-07-26)
 
 ### Bug Fixes
