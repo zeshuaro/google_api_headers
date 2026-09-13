@@ -1,3 +1,46 @@
+## [5.4.0](https://github.com/zeshuaro/google_api_headers/compare/v5.3.7...v5.4.0) (2026-09-13)
+
+### Features
+
+* **sdk:** update dependency flutter to v3.47.0 ([#971](https://github.com/zeshuaro/google_api_headers/issues/971)) ([0f2bd74](https://github.com/zeshuaro/google_api_headers/commit/0f2bd745f80bf31e49e8cbd1d4789f919d8aca85))
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.13.0 <4.0.0 ([#972](https://github.com/zeshuaro/google_api_headers/issues/972)) ([2a4b864](https://github.com/zeshuaro/google_api_headers/commit/2a4b86487b26c23ebb0255c1994cb89f605055aa))
+* **sdk:** update dependency dart to >=3.13.2 <4.0.0 ([#977](https://github.com/zeshuaro/google_api_headers/issues/977)) ([588dae0](https://github.com/zeshuaro/google_api_headers/commit/588dae0fb84624aa5d570195562ba19f755b1274))
+* **sdk:** update dependency dart to >=3.13.3 <4.0.0 ([#984](https://github.com/zeshuaro/google_api_headers/issues/984)) ([2489356](https://github.com/zeshuaro/google_api_headers/commit/248935690650546e762d3867c5561f0b4c804d4b))
+* **sdk:** update dependency flutter to v3.47.1 ([#973](https://github.com/zeshuaro/google_api_headers/issues/973)) ([2857296](https://github.com/zeshuaro/google_api_headers/commit/2857296b32576ae3e649f4d7b5e0b13c117cb946))
+* **sdk:** update dependency flutter to v3.47.2 ([#980](https://github.com/zeshuaro/google_api_headers/issues/980)) ([37c11c5](https://github.com/zeshuaro/google_api_headers/commit/37c11c5fff395cc7ef8107288687531c4676acc6))
+* **sdk:** update dependency flutter to v3.47.3 ([#988](https://github.com/zeshuaro/google_api_headers/issues/988)) ([3cf357e](https://github.com/zeshuaro/google_api_headers/commit/3cf357eccd978568b1f057b7aa2fb499bf1cb12b))
+* **sdk:** update dependency flutter to v3.47.4 ([#990](https://github.com/zeshuaro/google_api_headers/issues/990)) ([368abbe](https://github.com/zeshuaro/google_api_headers/commit/368abbe12fed681b15232287982caaa522ac59f4))
+
+### Reverts
+
+* chore(deps): update dependency conventional-changelog-conventionalcommits to v10 - [#937](https://github.com/zeshuaro/google_api_headers/issues/937) ([#991](https://github.com/zeshuaro/google_api_headers/issues/991)) ([9db9ae1](https://github.com/zeshuaro/google_api_headers/commit/9db9ae153d990126683d0a8434c96e98fdc13f32))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#966](https://github.com/zeshuaro/google_api_headers/issues/966)) ([5695308](https://github.com/zeshuaro/google_api_headers/commit/5695308a82cef53b7f1575deb7da3acd9e534c9c))
+* **deps:** lock file maintenance ([#970](https://github.com/zeshuaro/google_api_headers/issues/970)) ([999e72a](https://github.com/zeshuaro/google_api_headers/commit/999e72ac7f1aa0e611a1567042417a0349fd8ebb))
+* **deps:** lock file maintenance ([#975](https://github.com/zeshuaro/google_api_headers/issues/975)) ([e97a9af](https://github.com/zeshuaro/google_api_headers/commit/e97a9af046145705271bd424984ca80de10325e6))
+* **deps:** lock file maintenance ([#982](https://github.com/zeshuaro/google_api_headers/issues/982)) ([34040b1](https://github.com/zeshuaro/google_api_headers/commit/34040b173fdc046f0a48e290247517ed4f0ddf2e))
+* **deps:** update dependency build_runner to v2.15.2 ([#949](https://github.com/zeshuaro/google_api_headers/issues/949)) ([c35b7cf](https://github.com/zeshuaro/google_api_headers/commit/c35b7cf7701535aa67c7bd87bb9dac40f527d47b))
+* **deps:** update dependency build_runner to v2.16.1 ([#987](https://github.com/zeshuaro/google_api_headers/issues/987)) ([d0c8a69](https://github.com/zeshuaro/google_api_headers/commit/d0c8a697ec190809688d6c1672b12e10f312885b))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v10.3.0 ([#968](https://github.com/zeshuaro/google_api_headers/issues/968)) ([da9960e](https://github.com/zeshuaro/google_api_headers/commit/da9960ea9a8e8f89b71f058a74e7090c159ad293))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#974](https://github.com/zeshuaro/google_api_headers/issues/974)) ([867ab3b](https://github.com/zeshuaro/google_api_headers/commit/867ab3bf5f16ccea78b3cc80edaf0e8bdb947db4))
+* **deps:** update dependency semantic-release-pub to v0.13.4 ([#967](https://github.com/zeshuaro/google_api_headers/issues/967)) ([ed2c908](https://github.com/zeshuaro/google_api_headers/commit/ed2c908ff3a7b8e7469f8de62e977a10661c610f))
+* **example/deps:** update dependency dart to >=3.13.0 <4.0.0 ([#969](https://github.com/zeshuaro/google_api_headers/issues/969)) ([fdab41e](https://github.com/zeshuaro/google_api_headers/commit/fdab41e9c2653c4f6a5f12a0b775c8a7ef3afa12))
+* **example/deps:** update dependency dart to >=3.13.2 <4.0.0 ([#976](https://github.com/zeshuaro/google_api_headers/issues/976)) ([0cae00c](https://github.com/zeshuaro/google_api_headers/commit/0cae00cdb36e8284cc41399fb020fca94ea82bed))
+* **example/deps:** update dependency dart to >=3.13.3 <4.0.0 ([#983](https://github.com/zeshuaro/google_api_headers/issues/983)) ([61dc3f0](https://github.com/zeshuaro/google_api_headers/commit/61dc3f099c9b9d16048dcfbc5fa81716ea66d6f4))
+* **node:** update node.js to v24.20.0 ([#978](https://github.com/zeshuaro/google_api_headers/issues/978)) ([c967e6d](https://github.com/zeshuaro/google_api_headers/commit/c967e6d0007995b1248bb39355efcaa05989a597))
+* **node:** update node.js to v24.21.0 ([#989](https://github.com/zeshuaro/google_api_headers/issues/989)) ([01cb338](https://github.com/zeshuaro/google_api_headers/commit/01cb338109cbebfe83253986f936314f949641cc))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 5792007 ([#981](https://github.com/zeshuaro/google_api_headers/issues/981)) ([7d070a1](https://github.com/zeshuaro/google_api_headers/commit/7d070a16ac5579f435b1291c7ee102da5cbaaf6c))
+* **deps:** update zeshuaro/github-actions-workflows digest to befbed3 ([#985](https://github.com/zeshuaro/google_api_headers/issues/985)) ([2cf1c01](https://github.com/zeshuaro/google_api_headers/commit/2cf1c0175ce4739641f1cf75e135311999b5dda6))
+* **deps:** update zeshuaro/github-actions-workflows digest to bf2c360 ([#979](https://github.com/zeshuaro/google_api_headers/issues/979)) ([0ff3098](https://github.com/zeshuaro/google_api_headers/commit/0ff3098ec9843a691896d9e25efa2b14691a7798))
+
 ## [5.3.7](https://github.com/zeshuaro/google_api_headers/compare/v5.3.6...v5.3.7) (2026-08-09)
 
 ## [5.3.6](https://github.com/zeshuaro/google_api_headers/compare/v5.3.5...v5.3.6) (2026-07-26)
