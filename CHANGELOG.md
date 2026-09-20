@@ -1,3 +1,21 @@
+## [5.4.1](https://github.com/zeshuaro/google_api_headers/compare/v5.4.0...v5.4.1) (2026-09-20)
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.13.4 <4.0.0 ([#998](https://github.com/zeshuaro/google_api_headers/issues/998)) ([90f99cb](https://github.com/zeshuaro/google_api_headers/commit/90f99cbafaf400bc84250f11d379988920a8c45e))
+* **sdk:** update dependency flutter to v3.47.5 ([#999](https://github.com/zeshuaro/google_api_headers/issues/999)) ([bd4860b](https://github.com/zeshuaro/google_api_headers/commit/bd4860b077fe4e3367701ffe6979718c39619749))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#994](https://github.com/zeshuaro/google_api_headers/issues/994)) ([e66ea24](https://github.com/zeshuaro/google_api_headers/commit/e66ea2472d610622dd4fe8c331a77bf590a21e74))
+* **deps:** update dependency semantic-release-pub to v0.13.5 ([#996](https://github.com/zeshuaro/google_api_headers/issues/996)) ([5fc9afc](https://github.com/zeshuaro/google_api_headers/commit/5fc9afce8b9d9030043e23ebafff2ee8a894b65c))
+* **example/deps:** update dependency dart to >=3.13.4 <4.0.0 ([#997](https://github.com/zeshuaro/google_api_headers/issues/997)) ([8b3ea47](https://github.com/zeshuaro/google_api_headers/commit/8b3ea47b34a3511da78d006d609937e6906baeaf))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to 853fc12 ([#995](https://github.com/zeshuaro/google_api_headers/issues/995)) ([f8ddd69](https://github.com/zeshuaro/google_api_headers/commit/f8ddd69f12ca937a96cbe8181895837eea5d0326))
+* **deps:** update zeshuaro/github-actions-workflows digest to e408454 ([#993](https://github.com/zeshuaro/google_api_headers/issues/993)) ([1014556](https://github.com/zeshuaro/google_api_headers/commit/1014556d293c265e2949d608fbaf6ac3eb82ebe5))
+
 ## [5.4.0](https://github.com/zeshuaro/google_api_headers/compare/v5.3.7...v5.4.0) (2026-09-13)
 
 ### Features
