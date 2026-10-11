@@ -1,3 +1,14 @@
+## [5.4.3](https://github.com/zeshuaro/google_api_headers/compare/v5.4.2...v5.4.3) (2026-10-11)
+
+### Bug Fixes
+
+* **deps:** update dependency package_info_plus to ^10.2.2 ([#1008](https://github.com/zeshuaro/google_api_headers/issues/1008)) ([ba6d98b](https://github.com/zeshuaro/google_api_headers/commit/ba6d98b4f534312f0a715d4ee7428a2ee05c0029))
+* **sdk:** update dependency flutter to v3.47.7 ([#1009](https://github.com/zeshuaro/google_api_headers/issues/1009)) ([93c7b8c](https://github.com/zeshuaro/google_api_headers/commit/93c7b8c072688a670f716235b4f3a907e089a6c8))
+
+### Continuous Integration
+
+* **deps:** update zeshuaro/github-actions-workflows digest to be1a900 ([#1007](https://github.com/zeshuaro/google_api_headers/issues/1007)) ([ac4a40b](https://github.com/zeshuaro/google_api_headers/commit/ac4a40b97965b1dcd0152a7c55069cf5f70e405c))
+
 ## [5.4.2](https://github.com/zeshuaro/google_api_headers/compare/v5.4.1...v5.4.2) (2026-10-04)
 
 ### Bug Fixes
