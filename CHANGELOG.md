@@ -1,3 +1,21 @@
+## [5.4.4](https://github.com/zeshuaro/google_api_headers/compare/v5.4.3...v5.4.4) (2026-10-25)
+
+### Bug Fixes
+
+* **sdk:** update dependency dart to >=3.13.6 <4.0.0 ([#1015](https://github.com/zeshuaro/google_api_headers/issues/1015)) ([6421beb](https://github.com/zeshuaro/google_api_headers/commit/6421bebd3c7c32624e101a8310e476349109b41b))
+* **sdk:** update dependency flutter to v3.47.8 ([#1019](https://github.com/zeshuaro/google_api_headers/issues/1019)) ([a3fd139](https://github.com/zeshuaro/google_api_headers/commit/a3fd1393ef364f3a4e2c72b7260884807f6d8373))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#1013](https://github.com/zeshuaro/google_api_headers/issues/1013)) ([617a662](https://github.com/zeshuaro/google_api_headers/commit/617a66265f3b28ec35426ebf6fa0d8c870797bb9))
+* **deps:** update dependency build_runner to v2.16.2 ([#1010](https://github.com/zeshuaro/google_api_headers/issues/1010)) ([71e997e](https://github.com/zeshuaro/google_api_headers/commit/71e997ea05d86998bfa69fe2807f5ff48ba6f870))
+* **deps:** update dependency build_runner to v2.17.1 ([#1018](https://github.com/zeshuaro/google_api_headers/issues/1018)) ([5295ce5](https://github.com/zeshuaro/google_api_headers/commit/5295ce5482af360fc59b63bcf772ccaa9549773b))
+* **deps:** update dependency semantic-release-pub to v0.13.7 ([#1011](https://github.com/zeshuaro/google_api_headers/issues/1011)) ([f33ab48](https://github.com/zeshuaro/google_api_headers/commit/f33ab481694ba00fa1890595df3883f7aece6985))
+* **deps:** update dependency semantic-release-pub to v0.13.8 ([#1016](https://github.com/zeshuaro/google_api_headers/issues/1016)) ([f0f67e5](https://github.com/zeshuaro/google_api_headers/commit/f0f67e50f87a616742ec7081f439da54eb12ed6c))
+* **example/deps:** update dependency dart to >=3.13.6 <4.0.0 ([#1014](https://github.com/zeshuaro/google_api_headers/issues/1014)) ([8df41fd](https://github.com/zeshuaro/google_api_headers/commit/8df41fdd87ca56288bcc8c92f2d82c0c3ff6703f))
+* **node:** update node.js to v24.22.0 ([#1012](https://github.com/zeshuaro/google_api_headers/issues/1012)) ([a4186bc](https://github.com/zeshuaro/google_api_headers/commit/a4186bc56bad8441e347a5a16b1ba3df68b2ee90))
+* **node:** update node.js to v24.22.1 ([#1017](https://github.com/zeshuaro/google_api_headers/issues/1017)) ([7784232](https://github.com/zeshuaro/google_api_headers/commit/778423284decfc58b5e987bd311a020016945d8f))
+
 ## [5.4.3](https://github.com/zeshuaro/google_api_headers/compare/v5.4.2...v5.4.3) (2026-10-11)
 
 ### Bug Fixes
