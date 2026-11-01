@@ -1,3 +1,15 @@
+## [5.4.5](https://github.com/zeshuaro/google_api_headers/compare/v5.4.4...v5.4.5) (2026-11-01)
+
+### Bug Fixes
+
+* **sdk:** update dependency flutter to v3.47.9 ([#1024](https://github.com/zeshuaro/google_api_headers/issues/1024)) ([def8976](https://github.com/zeshuaro/google_api_headers/commit/def8976f02d50f856f0bd3071694c97f733108f1))
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#1020](https://github.com/zeshuaro/google_api_headers/issues/1020)) ([18c3fc6](https://github.com/zeshuaro/google_api_headers/commit/18c3fc694c72b3af5f827a19d783137e527e7a34))
+* **deps:** update dependency semantic-release-pub to v0.13.9 ([#1021](https://github.com/zeshuaro/google_api_headers/issues/1021)) ([431d348](https://github.com/zeshuaro/google_api_headers/commit/431d348ee8f21f08dfde523bc91dd98dfb3c800e))
+* **node:** update node.js to v24.22.2 ([#1022](https://github.com/zeshuaro/google_api_headers/issues/1022)) ([f9587c5](https://github.com/zeshuaro/google_api_headers/commit/f9587c5447234bad7d6670d6a7e0c5bc2412209d))
+
 ## [5.4.4](https://github.com/zeshuaro/google_api_headers/compare/v5.4.3...v5.4.4) (2026-10-25)
 
 ### Bug Fixes
