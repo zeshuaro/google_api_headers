@@ -22,7 +22,14 @@ allprojects {
 }
 
 apply plugin: "com.android.library"
-apply plugin: "kotlin-android"
+
+// AGP 9 ships Kotlin support built in and fails the build if the Kotlin
+// Gradle Plugin is applied on top of it. Keep applying it for AGP 8 so this
+// module still builds on older toolchains.
+def agpMajor = com.android.Version.ANDROID_GRADLE_PLUGIN_VERSION.tokenize('.')[0] as int
+if (agpMajor < 9) {
+    apply plugin: "kotlin-android"
+}
 
 android {
     namespace = "io.github.zeshuaro.google_api_headers"
@@ -32,10 +39,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11
     }
 
     sourceSets {
@@ -62,5 +65,12 @@ android {
                showStandardStreams = true
             }
         }
+    }
+}
+
+// Replaces the removed `android.kotlinOptions`; works under both toolchains.
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11
     }
 }
